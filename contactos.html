@@ -59,7 +59,7 @@
         <form method="post" action="index.js" enctype="multipart/form-data" class="form-contacto" id="form-contacto">
 
             <fieldset>
-                <legend> Suscríbete</legend>
+                <legend><strong>Suscríbete</strong></legend>
 
             <label for="nombre"> Nombre:</label><br>
             <input type="text" name="nom" id="nombre" required><br>
@@ -82,6 +82,14 @@
             <label for="archivo"> Subir imagen (opcional):</label><br>
             <input type="file" name="arch" id="archivo"><br>
 
+            <label for="pais">País de Procedencia:</label><br>
+            <select name="pais" id="PP">
+                <option value="arg">Argentina</option>
+                <option value="chi">Chile</option>
+                <option value="brs">Brasil</option>
+                <option value="uru">Uruguay</option>
+                <option value="otro">Otros</option>
+            </select>
             </fieldset>
 
             <button type="submit"> Enviar</button>
