@@ -34,68 +34,69 @@
     <hr>
         <nav class="menu-desple">
         <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li><a href="#dest">Destacados</a></li>
+            <li><a href="#noso">Nosotros</a></li>
+            <li><a href="#link">Links</a></li>
         </ul>
     </nav>
 
+    <hr>
+
     <!--PORTADA-->
     <section class="hero">
-        <h2>Nueva Colección 2025</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quam sed alias quas nihil. Architecto quibusdam corporis earum voluptates beatae. Corporis ipsa totam laudantium magnam, minus eveniet illo eaque corrupti!</p>
+        <h2>Nueva Colección 2025</h2><p>Temporada Invernal</p>
+        <p>Colección 2025 Invernal creada y diseñada por RUINAGE</p>
         <button>Comprar ahora</button>
     </section>
-     <!--CATEGORÍAS-->
-    <section class="categorias">
-        <h2>Categorías</h2>
-        <div class="lista-categorias">
-            <div class="categoria">Remeras</div>
-            <div class="categoria">Pantalones</div>
-            <div class="categoria">Abrigos</div>
-            <div class="categoria">Accesorios</div>
-        </div>
-    </section>
+  
+    <hr>
+
 <!-- PRODUCTOS DESTACADOS -->
-    <section class="productos-destacados">
-        <h2>Productos Destacados</h2>
+    <section class="productos-destacados" id="dest"> 
+        <h2>Productos Destacados</h2> <button><a href="">Ver más</a></button>
         <div class="grid-productos">
 
             <article class="producto">
-                <img src="img" alt="Remera">
-                <h3>Remera </h3>
-                <p>$</p>
+                <img src="img/productos/remera.jpg" alt="Remera" width="135" height="150">
+                <h3>Remera 'racodeloix'</h3>
+                <p class="precio">$65.000</p>
                 <button>Agregar al carrito</button>
             </article>
 
             <article class="producto">
-                <img src="img" alt="Pantalón">
-                <h3>Pantalón Cargo</h3>
-                <p>$</p>
+                <img src="img/productos/baggy.jpg" alt="Pantalones" width="135" height="150">
+                <h3>Pantalon Baggy</h3>
+                <p class="precio">$55.700</p>
                 <button>Agregar al carrito</button>
             </article>
 
             <article class="producto">
-                <img src="img" alt="Campera">
-                <h3>Campera </h3>
-                <p>$</p>
+                <img src="img/productos/camperaboxy.jpg" alt="Campera Boxy" width="135" height="150">
+                <h3>Campera boxy</h3>
+                <p class="precio">$42.300</p>
                 <button>Agregar al carrito</button>
             </article>
 
+            <article class="producto">
+                <img src="img/productos/diesel.jpg" alt="Accesorio" width="135" height="150">
+                <h3>Cinturon Diesel </h3>
+                <p class="precio">$35.000</p>
+                <button>Agregar al carrito</button>
+            </article>
         </div>
+
+        <hr>
+
     </section>
     <!--SOBRE LA MARCA -->
-    <section class="nosotros">
+    <section class="nosotros" id="noso">
         <h2>Sobre Nosotros</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim excepturi amet totam optio vitae, voluptates, sint iusto asperiores itaque perspiciatis pariatur similique repudiandae inventore. Explicabo ratione rem distinctio blanditiis aliquam.
-        </p>
+        <button><a href="nosotros.html">Conocer más</a></button>
     </section>
     <!-- NEWSLETTER -->
     <section class="newsletter">
         <h2>Suscribite</h2>
-        <p>Recibí novedades y descuentos exclusivos en tu mail.</p>
+        <p>Recibí novedades y descuentos exclusivos en tu mail.</p> <button><a href="contactos.html">Contactarse</a></button>
         <form>
             <input type="email" placeholder="Ingresá tu email" required>
             <button type="submit">Suscribirme</button>
@@ -103,18 +104,7 @@
     </section>
     <!-- FOOTER -->
     <footer>
-        <div class="footer-links">
-            <div>
-                <h3>Menú</h3>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Colección</a></li>
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-
+        <div class="footer-links" id="link">
             <div>
                 <h3>Contacto</h3>
                 <p>Email:@proyecto.com</p>
@@ -127,6 +117,9 @@
     
             </div>
         </div>
+
+        <hr>
+
         <div class="dere">
               <p> &copy; 2025 RUINAGE - Todos los derechos reservados.</p>
               <img src="img/logos/mediospago.jpg" alt="medios de pago">
