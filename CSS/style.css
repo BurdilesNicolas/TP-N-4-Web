@@ -1,8 +1,4 @@
 /*css*/
-:root{
-    color: #fff;
-    font: lighter;
-}
 header{
     display: flex;
     justify-content: space-between; /* separa logo, menú y carrito */
@@ -11,15 +7,13 @@ header{
 }
 
 header .logo img{
-    display: flex;
     max-height: 40px;
 }
 
 .navbar ul{
     display: flex;
     list-style: none;
-    gap: 50px; /* espacio entre links */
-       font: lighter;
+    gap: 30px; /* espacio entre links */
 }
 
 .navbar ul li a{
@@ -29,9 +23,8 @@ header .logo img{
 
 .cart ul{
     display: flex;
-    text-align: right;
     list-style: none;
-    gap: 2px;
+    gap: 15px;
 }
 
 /*PORTADA*/
