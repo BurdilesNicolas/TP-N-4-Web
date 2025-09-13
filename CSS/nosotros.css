@@ -32,7 +32,7 @@ header{
     margin-right: 20px;
     text-decoration: none;
     color:#610909;
-    font-weight: bold; /*grosor del texto*/
+    font-weight: bold; /*Grosor del texto*/
 }
 
 /*Posiciones del header*/
@@ -43,9 +43,25 @@ header{
 .logo {
     position: relative;
     left: 115px;
-    transform: translateX(-50%); /* centra exactamente */
+    transform: translateX(-50%); /*Centra exactamente*/
 }
 
 .logo img{
     max-height: 60px;
+}
+
+/*Barra de navegación*/
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px; /*Espacio entre los hijos*/
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold; /*Grosor del texto*/
+    color:#610909;
 }
