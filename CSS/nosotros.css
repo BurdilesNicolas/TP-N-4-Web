@@ -1,15 +1,36 @@
 /*CSS*/
+
+/*Selector por etiqueta*/
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#b20000;
 }
-/*Selector por etiqueta*/
+
 a{
     color:#610909;
 }
+
 header{
     display:flex;
     flex-direction: column;
     align-items: center;
     padding: 10px 20px;
+}
+/*Selectores por clase*/
+
+/*Menu desplegable*/
+.top-bar{
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+}
+
+.link a{
+    margin-right: 20px;
+    text-decoration: none;
+    color:#610909;
+    font-weight: bold; /*grosor del texto*/
 }
