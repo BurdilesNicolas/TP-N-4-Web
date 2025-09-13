@@ -14,53 +14,53 @@ header{
     padding: 10px 20px;
 }
 
-/* TOP BAR */
-.top-bar{
-    display: flex;
-    justify-content: space-between; /* Links izquierda, icons derecha */
-    width: 100%;
-    margin-bottom: 10px;
+.top-bar {
+  position: relative;  /* referencia para el logo absoluto */
+  display: flex;
+  justify-content: space-between; /* links a la izquierda, icons a la derecha */
+  align-items: center;
+  width: 100%;
+  padding:2px;
 }
 
-.top-links, .cart-icons{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+/* Links a la izquierda */
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #610909;
+  font-weight: bold;
 }
 
-.top-links li a, .cart-icons li a{
-    text-decoration: none;
-    color: #610909;
+/* Íconos a la derecha */
+.icons a {
+  margin-left: 20px;
 }
 
-/* LOGO */
-header .logo img{
-    max-height: 60px;
-    margin-bottom: 10px;
+/* Logo centrado */
+.logo {
+  position:relative;       
+  left:95px;                
+  transform: translateX(-50%); /* centra exactamente */
 }
 
-/* NAVBAR */
-.navbar ul{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+.logo img {
+  max-height: 60px;
 }
 
-.navbar ul li a{
-    text-decoration: none;
-    font-weight: bold;
-    color: #610909;
+/* Navbar centrado debajo */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 10px 0 0 0;
 }
 
-.cart ul{
-    display: flex;
-    list-style: none;
-    gap: 15px;
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #610909;
 }
 
 /*PORTADA*/
