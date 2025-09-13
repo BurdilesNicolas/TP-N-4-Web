@@ -34,3 +34,18 @@ header{
     color:#610909;
     font-weight: bold; /*grosor del texto*/
 }
+
+/*Posiciones del header*/
+.icons a{
+    margin-left: 20px;
+}
+
+.logo {
+    position: relative;
+    left: 115px;
+    transform: translateX(-50%); /* centra exactamente */
+}
+
+.logo img{
+    max-height: 60px;
+}
