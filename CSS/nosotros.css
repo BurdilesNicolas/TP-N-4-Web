@@ -1,0 +1,15 @@
+/*CSS*/
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#b20000;
+}
+/*Selector por etiqueta*/
+a{
+    color:#610909;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
