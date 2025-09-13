@@ -1,4 +1,7 @@
 /*css*/
+body{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
 header{
     display: flex;
     justify-content: space-between; /* separa logo, menú y carrito */
