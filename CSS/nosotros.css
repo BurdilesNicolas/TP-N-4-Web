@@ -76,3 +76,6 @@ header{
     display: flex;
     gap: 70rem; /*Espacio entre los hijos*/
 }
+.dere p{
+    text-align:center;
+}
