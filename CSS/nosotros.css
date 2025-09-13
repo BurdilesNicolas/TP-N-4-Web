@@ -8,6 +8,9 @@ body{
 
 a{
     color:#610909;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
 }
 
 header{
@@ -55,6 +58,7 @@ header{
     display: flex;
     justify-content: center;
     list-style: none;
+    text-decoration: none;
     gap: 30px; /*Espacio entre los hijos*/
     padding: 0;
     margin: 10px 0 0 0;
@@ -74,7 +78,7 @@ header{
 /*Footer*/
 .footer{
     display: flex;
-    gap: 70rem; /*Espacio entre los hijos*/
+    gap: 67.5rem; /*Espacio entre los hijos*/
 }
 .dere p{
     text-align:center;
