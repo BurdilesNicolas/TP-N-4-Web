@@ -65,3 +65,10 @@ header{
     font-weight: bold; /*Grosor del texto*/
     color:#610909;
 }
+/*Main*/
+.cont{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px;
+}
+/*Footer*/
