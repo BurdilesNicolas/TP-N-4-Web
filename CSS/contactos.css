@@ -76,3 +76,13 @@ header{
     display: block;
     margin-top: 12px;
 }
+.form-contacto input,
+.form-contacto select,
+.form-contacto textarea {
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #610909;
+    border-radius: 6px;
+    font-size: 14px;
+}
