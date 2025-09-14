@@ -57,10 +57,8 @@ a{
 /* Títulos de cada categoría */
 .productos h2 {
     font-size: 1.8rem;
-    margin: 1.5rem 0;
+    margin: 0%;
     text-align: center;
-    color: #222;
-    border-bottom: 2px solid #ccc;
     padding-bottom: 0.5rem;
 }
 
@@ -87,25 +85,27 @@ a{
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    width: 20rem;
+    height: 20rem;
 }
 
 /* Nombre del producto */
 .card h3 {
     font-size: 1.1rem;
     margin: 0.8rem 0 0.4rem;
-    color: #333;
+    color: #b20000;
 }
 /* Precio */
 .precio {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #e63946;
+    color: #B20000;
     margin: 0.5rem 0;
 }
 
 /* Botón */
 .card button {
-    background: #222;
+    background: #b20000;
     color: #fff;
     border: none;
     padding: 0.6rem 1rem;
