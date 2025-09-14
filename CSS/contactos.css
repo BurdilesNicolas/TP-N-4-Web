@@ -4,6 +4,58 @@ body{
     background-color: #f9f9f9;
     color: #b20000;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+.top-bar {
+  position: relative;  /* referencia para el logo absoluto */
+  display: flex;
+  justify-content: space-between; /* links a la izquierda, icons a la derecha */
+  align-items: center;
+  width: 100%;
+  padding:2px;
+}
+
+/* Links a la izquierda */
+.links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #610909;
+  font-weight: bold;
+}
+/* Íconos a la derecha */
+.icons a {
+  margin-left: 20px;
+}
+
+/* Logo centrado */
+.logo {
+  position:relative;       
+  left:95px;                
+  transform: translateX(-50%); /* centra exactamente */
+}
+
+.logo img {
+  max-height: 60px;
+}
+/* Navbar centrado debajo */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #610909;
+}
 .form-contacto {
     max-width: 600px;
     margin: 40px auto;
