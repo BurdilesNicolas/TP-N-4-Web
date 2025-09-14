@@ -95,6 +95,22 @@ a{
     margin: 0.8rem 0 0.4rem;
     color: #333;
 }
+/* Precio */
+.precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e63946;
+    margin: 0.5rem 0;
+}
+
+/* Botón */
+.card button {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+}
 
 /*Footer*/
 footer{
