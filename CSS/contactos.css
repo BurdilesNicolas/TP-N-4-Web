@@ -4,6 +4,12 @@ body{
     background-color: #f9f9f9;
     color: #b20000;
 }
+a {
+    color: #610909;
+     text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
 header{
     display: flex;
     flex-direction: column;
