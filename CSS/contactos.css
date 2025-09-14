@@ -112,3 +112,12 @@ header{
     background-color: #f36161;
 }
 
+
+/*Footer*/
+footer{
+    display: flex;
+    gap: 10.5rem; /*Espacio entre los hijos*/
+}
+.dere p{
+    text-align:center;
+}
