@@ -90,3 +90,14 @@ header{
     min-height: 100px;
     resize: vertical;
 }
+.form-contacto button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #fce9c8;
+    color: #610909;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
