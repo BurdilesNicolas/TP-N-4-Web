@@ -42,6 +42,29 @@ a{
     padding: 0;
     margin: 10px 0 0 0;
 }
+/* Estilo de las tarjetas */
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+}
+/* Centrar imágenes */
+.card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Nombre del producto */
+.card h3 {
+    font-size: 1.1rem;
+    margin: 0.8rem 0 0.4rem;
+    color: #333;
+}
 
 /*Footer*/
 footer{
