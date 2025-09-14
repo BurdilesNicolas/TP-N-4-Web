@@ -86,3 +86,7 @@ header{
     border-radius: 6px;
     font-size: 14px;
 }
+.form-contacto textarea {
+    min-height: 100px;
+    resize: vertical;
+}
