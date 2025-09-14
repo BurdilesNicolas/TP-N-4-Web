@@ -32,6 +32,16 @@ a{
 .logo img{
     max-height: 60px;
 }
+/*Barra de navegación*/
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px; /*Espacio entre los hijos*/
+    padding: 0;
+    margin: 10px 0 0 0;
+}
 
 /*Footer*/
 footer{
