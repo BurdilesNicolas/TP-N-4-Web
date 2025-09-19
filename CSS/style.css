@@ -66,13 +66,28 @@ header{
 /*PORTADA*/
 .hero{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 100px 20px;
     text-align: center;
+    /*Fondo*/
+    background-image: url('../img/logos/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
 }
-
+.left{
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.5rem;
+  align-items: left;
+}
+.right{
+  align-items: right;
+  font-size: 1.5rem;
+  margin: 20px;
+}
 /* PRODUCTOS DESTACADOS */
 .flex-productos{
     display: flex;
