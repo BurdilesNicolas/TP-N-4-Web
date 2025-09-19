@@ -131,6 +131,11 @@ header{
     flex:290px;
     text-align: center;
     cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.producto:hover{
+  transform: scale(1.05);
 }
 
 /* Imágenes con tamaño uniforme */
@@ -140,6 +145,11 @@ header{
     display: block;
 }
 
+
+.dere img{
+    padding-left: 15px;
+    gap:15px;
+}
 /*gap es el espacio entre hijos dentro de un mismo padre.
 padding es el aire dentro de la caja.
 margin es el aire fuera de la caja.*/
