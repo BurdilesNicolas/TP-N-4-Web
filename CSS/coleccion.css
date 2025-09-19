@@ -114,9 +114,18 @@ a{
 
 /*Footer*/
 footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: #fff;
+    background-color:#B20000;
     display: flex;
     gap: 67.5rem; /*Espacio entre los hijos*/
 }
+.footer p,a{
+    color:#fff
+}
 .dere p{
     text-align:center;
+}
+.dere{
+   flex-direction: row ;
+   
 }
