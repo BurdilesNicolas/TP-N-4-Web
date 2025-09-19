@@ -169,7 +169,7 @@ header{
 padding es el aire dentro de la caja.
 margin es el aire fuera de la caja.*/
 .img-container {
-  position: relative;   /* ✅ el contenedor es relativo, no absolute */
+  position: relative;
   width: 100%;
   overflow: hidden;
 }
@@ -198,3 +198,4 @@ margin es el aire fuera de la caja.*/
 .img-container:hover .img-default {
   opacity: 0;
 }
+
