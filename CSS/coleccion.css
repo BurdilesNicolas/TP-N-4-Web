@@ -131,3 +131,33 @@ color:#fff;
     padding-left: 15px;
     gap:15px;
 }
+.img-container {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* imagen base */
+.img-container .img-default {
+  width: 100%;
+  display: block;
+}
+
+/* imagen hover encima */
+.img-container .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* efecto hover */
+.img-container:hover .img-hover {
+  opacity: 1;
+}
+
+.img-container:hover .img-default {
+  opacity: 0;
+}
