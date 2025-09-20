@@ -25,12 +25,12 @@ a{
 
 .logo {
     position: relative;
-    left: 50px;
+    left: 75px;
     transform: translateX(-50%); /*Centra exactamente*/
 }
 
 .logo img{
-    max-height: 60px;
+    max-height: 120px;
 }
 /*Barra de navegación*/
 .navbar ul{
@@ -178,7 +178,7 @@ footer{
 .card button:hover {
     background: #e63946;
 }
-/* Estilo de las tarjetas */
+/* estilo tarjetas */
 .card {
     background: #fff;
     border: 1px solid #ddd;
