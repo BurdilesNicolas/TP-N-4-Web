@@ -37,15 +37,14 @@ header{
   margin-left: 20px;
 }
 
-/* Logo centrado */
 .logo {
-  position:relative;       
-  left:95px;                
-  transform: translateX(-50%); /* centra exactamente */
+    position: relative;
+    left: 75px;
+    transform: translateX(-50%); /*Centra exactamente*/
 }
 
-.logo img {
-  max-height: 60px;
+.logo img{
+    max-height: 120px;
 }
 /* Navbar centrado debajo */
 .navbar ul {

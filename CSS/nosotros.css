@@ -45,14 +45,13 @@ header{
 
 .logo {
     position: relative;
-    left: 115px;
+    left: 75px;
     transform: translateX(-50%); /*Centra exactamente*/
 }
 
 .logo img{
-    max-height: 60px;
+    max-height: 120px;
 }
-
 /*Barra de navegación*/
 .navbar ul{
     display: flex;
