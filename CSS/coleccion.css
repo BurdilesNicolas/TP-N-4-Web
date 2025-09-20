@@ -165,7 +165,6 @@ footer{
   opacity: 0;
 }
 
-/* Botón */
 .card button {
     background: #222;
     color: #fff;
@@ -179,18 +178,3 @@ footer{
 .card button:hover {
     background: #e63946;
 }
-/* Estilo de las tarjetas */
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 1rem;
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
-}
-
