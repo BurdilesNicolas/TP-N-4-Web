@@ -122,6 +122,16 @@ header{
 .footer-links div{
     flex: 1;
 }
+/*Footer*/
+footer{
+    color: #fff;
+    background-color:#610909;
+    display: flex;
+    gap: 67.5rem; /*Espacio entre los hijos*/
+}
+.footer p{
+    color:#fff;
+}
 
 .dere, .docu{
     display: flex;

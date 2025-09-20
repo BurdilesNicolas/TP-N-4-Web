@@ -92,7 +92,7 @@ main h2{
 /*Footer*/
 .footer{
     color: #fff;
-    background-color: #b20000;
+    background-color: #610909;
     display: flex;
     gap: 67.5rem; /*Espacio entre los hijos*/
 }
