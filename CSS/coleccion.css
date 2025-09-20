@@ -116,7 +116,7 @@ a{
 footer{
     gap:15px;
     color: #fff;
-    background-color:#B20000;
+    background-color:#610909;
     display: flex;
     gap: 67.5rem; /*Espacio entre los hijos*/
 }
@@ -164,7 +164,7 @@ footer{
 .img-container:hover .img-default {
   opacity: 0;
 }
-
+/* cambio color boton agregar carrito */
 .card button {
     background: #222;
     color: #fff;
@@ -178,7 +178,7 @@ footer{
 .card button:hover {
     background: #e63946;
 }
-/* estilo tarjetas */
+/* animación tarjetas */
 .card {
     background: #fff;
     border: 1px solid #ddd;
