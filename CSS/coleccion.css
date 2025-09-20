@@ -115,7 +115,7 @@ a{
 /*Footer*/
 footer{
     gap:15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: #fff;
+    color: #fff;
     background-color:#B20000;
     display: flex;
     gap: 67.5rem; /*Espacio entre los hijos*/
@@ -124,7 +124,10 @@ footer{
     color:#fff;
 }
 .docu a{
-color:#fff;
+    color:#fff;
+}
+.dere p{
+    text-align: center;
 }
 
 .dere img{

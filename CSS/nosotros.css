@@ -92,9 +92,18 @@ main h2{
 }
 /*Footer*/
 .footer{
+    color: #fff;
+    background-color: #b20000;
     display: flex;
     gap: 67.5rem; /*Espacio entre los hijos*/
 }
 .dere p{
-    text-align:center;
+    text-align: center;
+}
+.docu a{
+    color:#fff;
+}
+.dere img{
+    padding-left: 15px;
+    gap:15px;
 }
