@@ -37,6 +37,12 @@ header{
     color:#610909;
     font-weight: bold; /*Grosor del texto*/
 }
+#menu{
+   color: #610909;
+   background-color: #fff;
+   border: none;
+   font-size: 15px;
+}
 
 /*Posiciones del header*/
 .icons a{
