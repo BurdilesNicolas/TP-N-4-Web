@@ -117,4 +117,8 @@ margin es el aire fuera de la caja.*/
 .img-container:hover .img-default {
   opacity: 0;
 }
-
+.productos-destacados h2{
+  display: flex;
+  font-size: 40px;
+  margin:20px;
+}
