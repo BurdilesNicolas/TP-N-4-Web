@@ -14,6 +14,16 @@ header{
     align-items: center;
     padding: 10px 20px;
 }
+header {
+    position: fixed;   /* Hace que quede fijo */
+    top: 0;            /* Lo ubica en la parte superior */
+    left: 0;           /* Alineado a la izquierda */
+    width: 100%;       /* Que ocupe todo el ancho */
+    z-index: 1000;     /* Para que quede por encima del contenido */
+    background-color: rgb(255, 255, 255); /* Fondo para que no se superponga con el contenido */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra opcional */
+}
+
 #menu{
    color: #610909;
    background-color: #fff;
