@@ -28,7 +28,8 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2px;
+    padding: 0 20px;
+    height: 80px;
 }
 
 .link a{
@@ -45,7 +46,6 @@ header{
 }
 #menu:hover{
     color: #b20000;
-    background-color: rgb(221, 221, 221);
     cursor: pointer;
 }
 .oculto {
@@ -59,7 +59,6 @@ header{
 .logo {
     position: relative;
     left: 75px;
-    transform: translateX(-50%); /*Centra exactamente*/
 }
 
 .logo img{
@@ -71,9 +70,9 @@ header{
     justify-content: center;
     list-style: none;
     text-decoration: none;
-    gap: 30px; /*Espacio entre los hijos*/
+    gap: 25px; /*Espacio entre los hijos*/
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 30px;
 }
 
 .nav ul li a{
