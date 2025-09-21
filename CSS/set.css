@@ -1,0 +1,73 @@
+/*HEADER*/
+.top-bar {
+  position: relative;  /* referencia para el logo absoluto */
+  display: flex;
+  justify-content: space-between; /* links a la izquierda, icons a la derecha */
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  height: 80px;
+}
+#menu{
+   color: #610909;
+   background-color: #fff;
+   border: none;
+   font-size: 15px;
+}
+#menu:hover{
+    color: #b20000;
+    cursor: pointer;
+}
+.oculto {
+    display: none;
+}
+/*Posiciones del header*/
+.icons a{
+    margin-left: 20px;
+}
+
+.logo {
+    position: relative;
+    left: 75px;
+}
+
+.logo img{
+    max-height: 120px;
+}
+/*Barra de navegación*/
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 25px; /*Espacio entre los hijos*/
+    padding: 0;
+    margin: 20px 0 0 30px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold; /*Grosor del texto*/
+    color:#610909;
+}
+/*FOOTER*/
+
+footer{
+    color: #fff;
+    background-color:#610909;
+    display: flex;
+    gap: 67.5rem; /*Espacio entre los hijos*/
+}
+.footer p{
+    color:#fff;
+}
+.docu a{
+    color:#fff;
+}
+.dere p{
+    text-align: center;
+}
+
+.dere img{
+    padding-left: 15px;
+    gap:15px;
+}
