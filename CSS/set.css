@@ -17,7 +17,7 @@ header{
 header {
     position: fixed;   /* Hace que quede fijo */
     top: 0;            /* Lo ubica en la parte superior */
-    left: 0;           /* Alineado a la izquierda */
+    right: -1%;           /* Alineado a la izquierda */
     width: 100%;       /* hace que ocupe todo el ancho el header */
     z-index: 1000;     /* sirve para que no se superpongan las cosas  */
     background-color: rgb(255, 255, 255); /* Fondo para que no se superponga con el contenido */
