@@ -100,7 +100,7 @@ margin es el aire fuera de la caja.*/
 }
 
 /* imagen hover encima */
-.img-container .img-hover {
+.img-container .img-hover { /*RECORTAR IMAGENES AL TAMAÑO DE LA PRINCIPAL NO RESIZE*/
   position: absolute;
   top: 0;
   left: 0;
@@ -116,5 +116,9 @@ margin es el aire fuera de la caja.*/
 
 .img-container:hover .img-default {
   opacity: 0;
+}
+/*productos destacados texto tamaño*/
+.productos-destacados h2{
+  font-size: 40px;
 }
 
