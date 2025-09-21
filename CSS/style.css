@@ -6,61 +6,6 @@ body{
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  color: #B20000;
 }
-/* HEADER */
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-.top-bar {
-  position: relative;  /* referencia para el logo absoluto */
-  display: flex;
-  justify-content: space-between; /* links a la izquierda, icons a la derecha */
-  align-items: center;
-  width: 100%;
-  padding:2px;
-}
-
-/* Links a la izquierda */
-.links a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #610909;
-  font-weight: bold;
-}
-
-/* Íconos a la derecha */
-.icons a {
-  margin-left: 20px;
-}
-
-.logo {
-    position: relative;
-    left: 75px;
-    transform: translateX(-50%); /*Centra exactamente*/
-}
-
-.logo img{
-    max-height: 120px;
-}
-/* Navbar centrado debajo */
-.navbar ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 30px;
-  padding: 0;
-  margin: 10px 0 0 0;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #610909;
-}
-
 /*PORTADA*/
 .hero{
     display: flex;
@@ -111,35 +56,6 @@ header{
     margin-top: 10px;
 }
 
-/*FOOTER*/
-.footer-links{
-  color: #610909;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 40px;
-}
-
-.footer-links div{
-    flex: 1;
-}
-/*Footer*/
-footer{
-    color: #fff;
-    background-color:#610909;
-    display: flex;
-    gap: 67.5rem; /*Espacio entre los hijos*/
-}
-.footer p{
-    color:#fff;
-}
-
-.dere, .docu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-}
-
 .flex-productos {
     display: flex;
     flex-wrap: wrap; 
@@ -168,11 +84,6 @@ footer{
     display: block;
 }
 
-
-.dere img{
-    padding-left: 15px;
-    gap:15px;
-}
 /*gap es el espacio entre hijos dentro de un mismo padre.
 padding es el aire dentro de la caja.
 margin es el aire fuera de la caja.*/

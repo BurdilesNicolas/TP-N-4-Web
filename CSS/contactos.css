@@ -10,57 +10,6 @@ a {
     margin-right: 20px;
     font-weight: bold;
 }
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-}
-.top-bar {
-  position: relative;  /* referencia para el logo absoluto */
-  display: flex;
-  justify-content: space-between; /* links a la izquierda, icons a la derecha */
-  align-items: center;
-  width: 100%;
-  padding:2px;
-}
-
-/* Links a la izquierda */
-.links a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: #610909;
-  font-weight: bold;
-}
-/* Íconos a la derecha */
-.icons a {
-  margin-left: 20px;
-}
-
-.logo {
-    position: relative;
-    left: 75px;
-    transform: translateX(-50%); /*Centra exactamente*/
-}
-
-.logo img{
-    max-height: 120px;
-}
-/* Navbar centrado debajo */
-.navbar ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 30px;
-  padding: 0;
-  margin: 10px 0 0 0;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #610909;
-}
 /* Contenedor del formulario */
 .form-contacto {
     max-width: 600px;
@@ -115,13 +64,4 @@ header{
 /* Efecto hover en botón*/
 .form-contacto button:hover {
     background-color: #f36161;
-}
-
-/*Footer*/
-footer{
-    display: flex;
-    gap: 5.5rem; /*Espacio entre los hijos*/
-}
-.dere p{
-    text-align:center;
 }
