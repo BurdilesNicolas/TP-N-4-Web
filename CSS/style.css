@@ -1,10 +1,14 @@
 /*css*/
-a{
-    color: #610909;
-}
 body{
- font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- color: #B20000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#b20000;
+}
+
+a{
+    color:#610909;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
 }
 /*PORTADA*/
 .hero{
@@ -100,7 +104,7 @@ margin es el aire fuera de la caja.*/
 }
 
 /* imagen hover encima */
-.img-container .img-hover {
+.img-container .img-hover { /*RECORTAR IMAGENES AL TAMAÑO DE LA PRINCIPAL NO RESIZE*/
   position: absolute;
   top: 0;
   left: 0;
@@ -117,8 +121,8 @@ margin es el aire fuera de la caja.*/
 .img-container:hover .img-default {
   opacity: 0;
 }
+/*productos destacados texto tamaño*/
 .productos-destacados h2{
-  display: flex;
   font-size: 40px;
-  margin:20px;
 }
+
