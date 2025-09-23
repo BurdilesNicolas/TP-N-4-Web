@@ -12,8 +12,8 @@ a{
     font-weight: bold;
 }
 main{
-    margin: 60px;
-    padding: 60px;
+    margin: 70px;
+    padding: 70px;
 }
 /*Selectores por clase*/
 /*Main*/
@@ -25,13 +25,32 @@ main{
     justify-content: center;
 }
 .card{
-    background-color: rgb(221, 221, 221);
+    
     border-radius: 10px;
-    height: 26rem;
-    width: 50rem;
-    box-shadow: 5px 5px 15px rgb(97, 96, 96);
+    height: 250px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
     margin: 20px;
-    font-size: 2rem;
+    padding: 20px;
+    text-align: left;
+}
+.somos{
+        display: column;
+        text-align: center;
+
+}
+#quienes{
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.card h2{
+    font-size: 40px;
 }
 main h2{
     text-align: center;
