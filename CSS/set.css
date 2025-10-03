@@ -90,3 +90,54 @@ footer{
     padding-left: 15px;
     gap:15px;
 }
+/* 6) Underline slide (tipo enlace con grid) sacado del repositorio de botones */
+.btn.underline {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  text-decoration: none; /* saca el subrayado normal */
+  color: inherit;        
+  display: inline-grid;  /* ahora usa grid */
+  justify-content: start; /* alinea el texto a la izquierda dentro de la grid */
+}
+/*Animacion links del nav con grid*/
+.btn.underline span {
+  position: relative;
+}
+.btn.underline span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -3px;
+  height: 2px;
+  background: currentColor;
+  transition: right 0.3s cubic-bezier(.2,.8,.2,1);
+}
+
+.btn.underline:hover span::after {
+  right: 0;
+}
+.logo {
+  margin-left: -50px;
+  display: flex;
+  justify-content: center; /* centra en el eje horizontal */
+  align-items: center;     /* centra en el eje vertical */
+  height: 100px;           /* alto del contenedor (ajustalo a tu header) */
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px; /* alto del header */
+}
+
+header .logo img {
+  max-height: 100%; /* se adapta al alto */
+}
