@@ -8,12 +8,6 @@
   padding: 0 20px;
   height: 80px;
 }
-header{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-}
 header {
     position: fixed;   /* Hace que quede fijo */
     top: 0;            /* Lo ubica en la parte superior */
@@ -22,6 +16,10 @@ header {
     z-index: 1000;     /* sirve para que no se superpongan las cosas  */
     background-color: rgb(255, 255, 255); /* Fondo para que no se superponga con el contenido */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* esto agrega una sombra */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
 }
 .productos {
     margin-top: 170px; /* Ajustá según la altura de tu header */
@@ -75,6 +73,7 @@ footer{
     background-color:#610909;
     display: flex;
     gap: 67.5rem; /*Espacio entre los hijos*/
+    width: 100%;
 }
 .footer p{
     color:#fff;
