@@ -27,6 +27,7 @@ header {
     margin-top: 170px; /* Ajustá según la altura de tu header */
 }
 #menu{
+   margin: 30px;
    color: #610909;
    background-color: #fff;
    border: none;

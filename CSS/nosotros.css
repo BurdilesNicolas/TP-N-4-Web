@@ -11,6 +11,10 @@ a{
     margin-right: 20px;
     font-weight: bold;
 }
+main{
+    margin: 70px;
+    padding: 70px;
+}
 /*Selectores por clase*/
 /*Main*/
 .cont{
@@ -21,15 +25,71 @@ a{
     justify-content: center;
 }
 .card{
-    background-color: rgb(221, 221, 221);
     border-radius: 10px;
-    height: 26rem;
-    width: 50rem;
-    box-shadow: 5px 5px 15px rgb(97, 96, 96);
+    height: 250px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
     margin: 20px;
-    font-size: 2rem;
+    padding: 20px;
+    text-align: left;
+}
+#quienes{
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.card h2{
+    font-size: 40px;
 }
 main h2{
     text-align: center;
     font-size: 3rem;
+}
+.cont2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+}
+.tarje{
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+.icono{
+    background-color: #b20000;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto 10px auto;
+}
+.icono p{
+    color: white;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.somos{
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+}
+.card2{
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
 }
