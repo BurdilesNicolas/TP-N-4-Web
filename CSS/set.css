@@ -44,6 +44,8 @@ header {
     list-style: none; /*Saca la decoracion de la lista*/
     min-width: 160px; /*Establece el tamaño minimo*/
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 0;
 }
 .links ul li a{
     display: block; 
@@ -53,6 +55,9 @@ header {
 }
 .links ul li a:hover{
     background-color: #fff;
+}
+.links:hover ul {
+    display: block;
 }
 
 /*Posiciones del header*/
@@ -82,9 +87,6 @@ header {
     text-decoration: none;
     font-weight: bold; /*Grosor del texto*/
     color:#610909;
-}
-.links:hover ul {
-    display: block;
 }
 
 /*FOOTER*/
