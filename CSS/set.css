@@ -51,6 +51,9 @@ header {
     color: #b20000;
     text-decoration: none;
 }
+.links ul li a:hover{
+    background-color: #fff;
+}
 
 /*Posiciones del header*/
 .icons a{
