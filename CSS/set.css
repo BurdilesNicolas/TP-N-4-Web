@@ -42,9 +42,16 @@ header {
     left: 0; /* Lo ubica a la izquierda*/
     background-color: #fff;
     list-style: none; /*Saca la decoracion de la lista*/
-    min-width: 160px;
+    min-width: 160px; /*Establece el tamaño minimo*/
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
+.links ul li a{
+    display: block; 
+    padding: 10px;
+    color: #b20000;
+    text-decoration: none;
+}
+
 /*Posiciones del header*/
 .icons a{
     margin-left: 20px;
