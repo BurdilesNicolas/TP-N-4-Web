@@ -35,8 +35,15 @@ header {
     color: #b20000;
     cursor: pointer;
 }
-.oculto {
-    display: none;
+.links ul {
+    display: none; /*No lo muestra */
+    position: absolute; /* Lo muestra por encima de todo*/
+    top: 100%; /* Lo ubica arriba*/
+    left: 0; /* Lo ubica a la izquierda*/
+    background-color: #fff;
+    list-style: none; /*Saca la decoracion de la lista*/
+    min-width: 160px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
 /*Posiciones del header*/
 .icons a{
