@@ -83,6 +83,10 @@ header {
     font-weight: bold; /*Grosor del texto*/
     color:#610909;
 }
+.links:hover ul {
+    display: block;
+}
+
 /*FOOTER*/
 
 footer{
