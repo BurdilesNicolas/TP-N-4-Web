@@ -65,3 +65,11 @@ a {
 .form-contacto button:hover {
     background-color: #f36161;
 }
+/* Hover en inputs, selects y textarea */
+.form-contacto input: hover,
+.form-contacto select: hover,
+.form-contacto textarea: hover {
+    border-color: #b30059;
+    box-shadow: 0 0 5px #ff66b2;
+    transition: 0.3s;
+}
