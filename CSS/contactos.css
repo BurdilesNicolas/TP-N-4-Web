@@ -88,3 +88,13 @@ a {
     animation: aparecer 1s ease-in-out;
     box-shadow: 0 0 10px rgba(179, 0, 89, 0.2);
 }
+@keyframes aparecer {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
