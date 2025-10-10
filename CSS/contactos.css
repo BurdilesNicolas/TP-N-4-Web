@@ -98,3 +98,12 @@ a {
         transform: translateY(0);
     }
 }
+/* Efecto hover en el boton enviar */
+.form-contacto button:hover,
+.form-contacto input[type="submit"]:hover {
+    background-color: #b30059;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 0 8px #ff66b2;
+}
