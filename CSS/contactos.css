@@ -73,3 +73,13 @@ a {
     box-shadow: 0 0 5px #ff66b2;
     transition: 0.3s;
 }
+/* Efecto cuando el campo esta activo*/
+.form-contacto input: focus,
+.form-contacto select: focus,
+.form-contacto textarea: focus {
+    outline: none;
+    border-color: #ff66b2;
+    box-shadow: 0 0 8px #ffb3d9;
+    background-color: #ffe6f0;
+    transition: 0.3s;
+}
