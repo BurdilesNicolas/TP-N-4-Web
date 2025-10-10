@@ -37,6 +37,9 @@ a{
   margin: 20px;
 }
 /* PRODUCTOS DESTACADOS */
+h2{
+  padding-left: 15  px;
+}
 .flex-productos{
     display: flex;
     flex-wrap: wrap; /* permite varias filas */
