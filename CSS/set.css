@@ -1,3 +1,22 @@
+.barrita {
+    margin-top: 0;
+  background-color: #e50000;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 100vw;
+}
+
+.barrita p {
+  margin: 0; /* Elimina márgenes por defecto del párrafo */
+}
+
+
+
 /*HEADER (En .logo img ajusto tanto el tamaño, altura, ancho y la posicion con el relative para
 que quede centrado*/
 .logo img {
@@ -18,6 +37,7 @@ que quede centrado*/
   height: 80px;
 }
 header {
+    margin-top: 0;
     position: fixed;   /* Hace que quede fijo */
     top: 0;            /* Lo ubica en la parte superior */
     right: -1%;           /* Alineado a la izquierda */
@@ -28,7 +48,8 @@ header {
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 20px;
+    padding:0px 20px;
+    padding-bottom: 10px;
 }
 .productos {
     margin-top: 170px; /* Ajustá según la altura de tu header */
@@ -90,7 +111,7 @@ header {
     text-decoration: none;
     gap: 25px; /*Espacio entre los hijos*/
     padding: 0;
-    margin: 20px 0 0 30px;
+    margin: 10px 0 0 30px;
 }
 .nav ul li a{
     text-decoration: none;
