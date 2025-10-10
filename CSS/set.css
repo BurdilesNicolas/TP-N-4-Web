@@ -1,4 +1,13 @@
-/*HEADER*/
+/*HEADER (En .logo img ajusto tanto el tamaño, altura, ancho y la posicion con el relative para
+que quede centrado*/
+.logo img {
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 200px; 
+  position: relative;
+}
 .top-bar {
   position: relative;  /* referencia para el logo absoluto */
   display: flex;
