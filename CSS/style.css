@@ -64,8 +64,6 @@ color: #ffffff;
   .producto{
       display: flex;
       flex-direction: column; /* apila img + texto + botón */
-      align-items: center;
-      text-align: center;
       width: 200px;
   }
   /* Botón agregar al carrito */
@@ -104,7 +102,6 @@ color: #ffffff;
   .producto {
       position: relative;
       flex:290px;
-      text-align: center;
       cursor: pointer;
       transition: 0.5s ease;
   }
@@ -189,3 +186,26 @@ color: #ffffff;
     text-align: left;
   }
 
+/*INFO PRODUCTO*/
+.info-producto {
+  align-self: flex-start; /* mueve el bloque a la izquierda */
+  text-align: left;       /* texto alineado a la izquierda */
+  width: 100%;            /* ocupa todo el ancho */
+  margin-top: 10px;
+}
+
+.info-producto h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #222;
+  margin: 5px 0 2px 10px;
+}
+.info-producto .precio {
+  font-size: 0.85rem;
+  color: #555;
+  margin-left: 10px;
+}
+.producto button {
+  align-self: center;
+  margin-top: 10px;
+}
