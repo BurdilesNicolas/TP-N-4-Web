@@ -1,108 +1,54 @@
-body{
+body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#b20000;
 }
 
-a{
+a {
     color:#610909;
     text-decoration: none;
     margin-right: 20px;
     font-weight: bold;
 }
-/*Selectores por clase*/
-/* --- Sección Productos --- */
-.productos {
-    width: 80%;
-    margin: 2rem auto;
-    font-family: Arial, sans-serif;
+
+/* Contenedores de productos */
+.remeras,
+.pantalones,
+.abrigos,
+.accesorios {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;  
+    gap: 10px;             
+    padding: 20px;
 }
 
-/* Títulos de cada categoría */
-.productos h2 {
-    font-size: 1.8rem;
-    margin: 0%;
-    text-align: center;
-    padding-bottom: 0.5rem;
-}
-
-/* Contenedor de las tarjetas */
-.remeras, .pantalones, .abrigos, .accesorios {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-/* Estilo de las tarjetas */
+/* Cada producto */
 .card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 1rem;
+    position: relative;
+    flex: 290px;
     text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
 }
-/* Centrar imágenes */
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Imágenes con tamaño uniforme */
 .card img {
+    width: 100%;
+    height: 600px;   /* todos los productos de la misma altura */
     display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    width: 20rem;
-    height: 20rem;
 }
-
-/* Nombre del producto */
-.card h3 {
-    font-size: 1.1rem;
-    margin: 0.8rem 0 0.4rem;
-    color: #b20000;
-}
-/* Precio */
-.precio {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #B20000;
-    margin: 0.5rem 0;
-}
-
+/* sección botones */
 /* Botón */
 .card button {
     background: #b20000;
     color: #fff;
     border: none;
     padding: 0.6rem 1rem;
-    border-radius: 8px;
-}
-.img-container {
-  position: absolute;
-  width: 100%;
-  overflow: hidden;
-}
-
-/* imagen base */
-.img-container .img-default {
-  width: 100%;
-  display: block;
-}
-
-/* imagen hover encima */
-.img-container .img-hover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-/* efecto hover */
-.img-container:hover .img-hover {
-  opacity: 1;
-}
-
-.img-container:hover .img-default {
-  opacity: 0;
+    border-radius: 8px;
 }
 /* cambio color boton agregar carrito */
 .card button {
@@ -116,19 +62,5 @@ a{
 }
 
 .card button:hover {
-    background: #e63946;
-}
-/* animación tarjetas */
-.card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 1rem;
-    text-align: center;
-    transition: transform 0.5s ease, box-shadow 0.2s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    background: #e63946;
 }
