@@ -12,18 +12,30 @@
   }
 
   /*PORTADA*/
+  .hero button{
+    color: #ffffff;             /* texto blanco */
+    border: none;               /* sin borde */
+    padding: 10px 20px;         /* espacio interno */
+    border-radius: 4px;         /* esquinas ligeramente redondeadas */
+    cursor: pointer;            /* puntero al pasar por encima */
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
   .hero{
+color: #ffffff;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 100px 20px;
       text-align: center;
       /*Fondo*/
-      background-image: url('../img/logos/fondo.jpg');
+      background-image: url('../img/logos/fondo\ prueba\ 2.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      min-height: 70vh;
+      min-height: 120vh;
   }
   .left{
     padding: 20px;
@@ -37,8 +49,9 @@
     margin: 20px;
   }
   /* PRODUCTOS DESTACADOS */
-  h2{
-    padding-left: 15  px;
+  .productos-destacados h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
   .flex-productos{
       display: flex;
