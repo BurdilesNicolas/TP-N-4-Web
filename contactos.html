@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUINAGE-Contacto</title>
-    <link rel="stylesheet" href="CSS/contactos.css">
-    <link rel="stylesheet" href="CSS/set.css">
+    <link rel="stylesheet" href="CSS/contactos.css"> <link rel="stylesheet" href="CSS/set.css">
 </head>
-
 <body>
-    <!--HEADER-->
+   <!--HEADER-->
     <header>
-        <div class="barrita">
-            <p>FREE SHIPPING INTERNATIONAL ORDERS +200$</p>
-        </div>
-        <div class="top-bar">
-            <!-- Links a la izquierda -->
-            <div class="links">
-                <button id="menu"> ☰ MENU</button>
-                <ul>
-                    <li><a href="#redes"> Redes Sociales</a></li>
-                    <li> <a href="#form-contacto">Formulario</a></li>
-                </ul>
-            </div>
-
-            <!-- Logo centrado -->
-            <div class="logo">
-                <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
-            </div>
-
-            <!-- Íconos a la derecha -->
-            <div class="icons">
-                <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
-                <a href="#"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
-                <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
-            </div>
+    <div class="top-bar">
+        <!-- Links a la izquierda -->
+        <div class="links">
+            <button id="menu"> ☰ MENU</button>
+              <ul>
+                <li><a href="#redes"> Redes Sociales</a></li>
+                <li> <a href="#form-contacto">Formulario</a></li>
+              </ul>
         </div>
 
-        <!-- Menú principal debajo -->
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="coleccion.html">Colección</a></li>
-                <li><a href="contactos.html">Contacto</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-            </ul>
-        </nav>
+        <!-- Logo centrado -->
+        <div class="logo">
+            <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
+        </div>
+
+        <!-- Íconos a la derecha -->
+        <div class="icons">
+            <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
+            <a href="#"><img src="img/logos/lupa.png"width="35" height="35"  alt="Buscar"></a>
+            <a href="#"><img src="img/logos/carrito_new_recolored.png"width="35" height="35" alt="Carrito"></a>
+        </div>
+    </div>
+
+    <!-- Menú principal debajo -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="coleccion.html">Colección</a></li>
+            <li><a href="contactos.html">Contacto</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+    </nav>
     </header>
     <main>
-        <div class="texto">
+         <div class="texto">
             <p> Pódes comunicarte con nosotros a través del siguiente formulario o por nuestras redes sociales:</p>
-        </div>
-
+         </div>
+        
         <section class="redes sociales" id="redes">
             <ul>
                 <li><a href="https://www.instagram.com/" target="_blank"> Instagram</a></li>
@@ -61,35 +55,35 @@
             </ul>
         </section>
         <form method="post" action="index.js" enctype="multipart/form-data" class="form-contacto" id="form-contacto">
-            <legend><strong>Suscríbete</strong></legend>
+        <legend><strong>Suscríbete</strong></legend>
+            
+        <fieldset>  
+            <legend><strong> Datos Personales</strong></legend>
 
-            <fieldset>
-                <legend><strong> Datos Personales</strong></legend>
+            <label for="nombre"> Nombre:</label><br>
+            <input type="text" name="nom" id="nombre" required><br>
 
-                <label for="nombre"> Nombre:</label><br>
-                <input type="text" name="nom" id="nombre" required><br>
+            <label for="apellido"> Apellido:</label><br>
+            <input type="text" name="ape" id="apellido" required><br>
 
-                <label for="apellido"> Apellido:</label><br>
-                <input type="text" name="ape" id="apellido" required><br>
+            <label for="dni"> DNI:</label><br>
+            <input type="text" name="dni" id="dni" maxlength="8"><br>
 
-                <label for="dni"> DNI:</label><br>
-                <input type="text" name="dni" id="dni" maxlength="8"><br>
+            <label for="telefono"> Telefono:</label><br>
+            <input type="tel" name="telefono" id="telefono" ><br>
 
-                <label for="telefono"> Telefono:</label><br>
-                <input type="tel" name="telefono" id="telefono"><br>
-
-                <label for="pais">País de Procedencia:</label><br>
-                <select name="pais" id="PP">
-                    <option value="arg">Argentina</option>
-                    <option value="chi">Chile</option>
-                    <option value="brs">Brasil</option>
-                    <option value="uru">Uruguay</option>
-                    <option value="otro">Otros</option>
-                </select>
+            <label for="pais">País de Procedencia:</label><br>
+            <select name="pais" id="PP">
+                <option value="arg">Argentina</option>
+                <option value="chi">Chile</option>
+                <option value="brs">Brasil</option>
+                <option value="uru">Uruguay</option>
+                <option value="otro">Otros</option>
+            </select>
             </fieldset>
 
             <fieldset>
-                <legend> Contacto y Mensajes</legend>
+            <legend> Contacto y Mensajes</legend>
                 <label for="Gmail"> Email:</label><br>
                 <input type="email" name="email" id="Gmail" required><br>
 
@@ -105,32 +99,29 @@
                     <option value="ventas">Ventas</option>
                     <option value="otro">Otro</option>
                 </select> <br>
+            
+            <label for="descripción"> Mensaje:</label><br>
+            <textarea name="desc" id="descripción" rows="5" cols="30"  placeholder="Escriba aquí..." required></textarea><br>
 
-                <label for="descripción"> Mensaje:</label><br>
-                <textarea name="desc" id="descripción" rows="5" cols="30" placeholder="Escriba aquí..."
-                    required></textarea><br>
+            <label for="archivo"> Adjuntar imagen (opcional):</label><br>
+            <input type="file" name="arch" id="archivo"><br>
 
-                <label for="archivo"> Adjuntar imagen (opcional):</label><br>
-                <input type="file" name="arch" id="archivo"><br>
-
-                <input type="checkbox" name="Acepto" id="acepto" required>
-                <label for="acepto"> Acepto la política de privacidad y el uso de mis datos</label>
+            <input type="checkbox" name="Acepto" id="acepto" required>
+            <label for="acepto"> Acepto la política de privacidad y el uso de mis datos</label>
 
             </fieldset>
             <button type="submit"> Enviar</button>
             <button type="reset"> Borrar</button>
-        </form>
+        </form> 
     </main>
     <footer>
         <div class="dere">
-            <p> &copy; 2025 RUINAGE - Todos los derechos reservados.</p>
-            <img src="img/logos/mediospago.jpg" alt="medios de pago">
+              <p> &copy; 2025 RUINAGE - Todos los derechos reservados.</p>
+              <img src="img/logos/mediospago.jpg" alt="medios de pago">
         </div>
         <div class="docu">
-            <p> <a href="document/RuinageTerminos.pdf">Aviso legal<br>Términos y condiciones<br>Políticas de
-                    devoluciones<br>Política de cookies<br>Políticas de privacidad<br></a></p>
+            <p> <a href="document/RuinageTerminos.pdf">Aviso legal<br>Términos y condiciones<br>Políticas de devoluciones<br>Política de cookies<br>Políticas de privacidad<br></a></p>
         </div>
     </footer>
 </body>
-
 </html>
