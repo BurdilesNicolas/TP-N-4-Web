@@ -42,17 +42,8 @@ a {
     display: block;
 }
 /* sección botones */
-/* Botón */
 .card button {
-    background: #b20000;
-    color: #fff;
-    border: none;
-    padding: 0.6rem 1rem;
-    border-radius: 8px;
-}
-/* cambio color boton agregar carrito */
-.card button {
-    background: #222;
+    background: #000000;
     color: #fff;
     border: none;
     padding: 0.6rem 1rem;
@@ -62,5 +53,5 @@ a {
 }
 
 .card button:hover {
-    background: #e63946;
+    background: #85010c;
 }
