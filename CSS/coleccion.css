@@ -9,6 +9,14 @@ a {
     margin-right: 20px;
     font-weight: bold;
 }
+/* Títulos de cada categoría */
+.productos h2 {
+    font-size: 1.8rem;
+    margin: 0%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
 
 /* Contenedores de productos */
 .remeras,
