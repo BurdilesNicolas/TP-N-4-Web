@@ -1,181 +1,183 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUINAGE</title>
-    <link rel="stylesheet" href="CSS/style.css"> <link rel="stylesheet" href="CSS/set.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUINAGE</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/set.css">
 </head>
+
 <body>
 
-    <!--HEADER-->
-<header>
-  <div class="barrita">
-  <p>FREE SHIPPING INTERNATIONAL ORDERS +200$</p>
-  </div>
-  <div class="top-bar">
-    <!-- Links a la izquierda -->
-    <div class="links">
+  <!--HEADER-->
+  <header>
+    <div class="barrita">
+      <p>FREE SHIPPING INTERNATIONAL ORDERS +200$</p>
+    </div>
+    <div class="top-bar">
+      <!-- Links a la izquierda -->
+      <div class="links">
         <button id="menu"> ☰ MENU</button>
         <ul>
-           <li><a href="#dest">Destacados</a></li>
-           <li><a href="#noso">Nosotros</a></li>
-           <li><a href="#link">Links</a></li>
+          <li><a href="#dest">Destacados</a></li>
+          <li><a href="#noso">Nosotros</a></li>
+          <li><a href="#link">Links</a></li>
         </ul>
+      </div>
+
+      <!-- Logo centrado -->
+      <div class="logo">
+        <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
+      </div>
+
+      <!-- Íconos a la derecha -->
+      <div class="icons">
+        <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
+        <a href="#"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
+        <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
+      </div>
     </div>
 
-    <!-- Logo centrado -->
-    <div class="logo">
-      <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
+    <!-- Menú principal debajo -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" class="btn underline"><span>Inicio</span></a></li>
+        <li><a href="coleccion.html" class="btn underline"><span>Colección</span></a></li>
+        <li><a href="contactos.html" class="btn underline"><span>Contacto</span></a></li>
+        <li><a href="nosotros.html" class="btn underline"><span>Nosotros</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!--PORTADA-->
+  <section class="hero">
+    <div class="left">
+      <h2>Nueva Colección 2025 <br> Temporada Invernal</h2>
+      <button><a href="coleccion.html">SHOP NOW</a></button>
     </div>
-
-    <!-- Íconos a la derecha -->
-    <div class="icons">
-      <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
-      <a href="#"><img src="img/logos/lupa.png"width="35" height="35"  alt="Buscar"></a>
-      <a href="#"><img src="img/logos/carrito_new_recolored.png"width="35" height="35" alt="Carrito"></a>
+    <div class="right">
+      <p>Colección 2025 Invernal creada y diseñada por RUINAGE</p>
     </div>
-  </div>
+  </section>
 
-  <!-- Menú principal debajo -->
-  <nav class="navbar">
-  <ul>
-    <li><a href="index.html" class="btn underline"><span>Inicio</span></a></li>
-    <li><a href="coleccion.html" class="btn underline"><span>Colección</span></a></li>
-    <li><a href="contactos.html" class="btn underline"><span>Contacto</span></a></li>
-    <li><a href="nosotros.html" class="btn underline"><span>Nosotros</span></a></li>
-  </ul>
-</nav>
-</header>
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="productos-destacados" id="dest">
+    <h2>Productos Destacados</h2>
+    <div class="flex-productos">
 
-
-    <!--PORTADA-->
-    <section class="hero">
-        <div class="left">
-            <h2>Nueva Colección 2025 <br> Temporada Invernal</h2>
-            <button><a href="coleccion.html">SHOP NOW</a></button>
+      <article class="producto">
+        <div class="img-container">
+          <img src="img/productos/Abrigos/buzo destacado.png " alt="Buzo" width="1000" height="300">
+          <img src="img/productos/hover buzo destacado.jpg" alt="Pantalon" class="img-hover">
         </div>
-        <div class="right">
-            <p>Colección 2025 Invernal creada y diseñada por RUINAGE</p>
+        <h3>Buzo NY</h3>
+        <p class="precio">$65.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+
+      <article class="producto">
+        <div class="img-container">
+          <div class="img-container">
+            <img src="img/productos/Abrigos/campera carhartt rama.png" alt="Pantalones" width="135" height="150">
+            <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
+          </div>
+          <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
         </div>
-    </section>
+        <h3>Bomber Carhartt</h3>
+        <p class="precio">$55.700</p>
+        <button>Agregar al carrito</button>
+      </article>
 
-<!-- PRODUCTOS DESTACADOS -->
-    <section class="productos-destacados" id="dest"> 
-        <h2>Productos Destacados</h2>
-        <div class="flex-productos">
-
-            <article class="producto">
-              <div class="img-container">
-                <img src="img/productos/buzo destacado.png" alt="Buzo" width="1000" height="300">
-                <img src="img/productos/hover buzo destacado.jpg" alt="Pantalon" class="img-hover">
-                </div>
-                <h3>Buzo NY</h3>
-                <p class="precio">$65.000</p>
-                <button>Agregar al carrito</button>
-            </article>
-
-            <article class="producto">
-              <div class="img-container">
-              <div class="img-container">
-                <img src="img/productos/campera carhartt rama.png" alt="Pantalones" width="135" height="150">
-                <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
-                </div>
-                <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
-                </div>
-                <h3>Bomber Carhartt</h3>
-                <p class="precio">$55.700</p>
-                <button>Agregar al carrito</button>
-            </article>
-
-            <article class="producto">
-              <div class="img-container">
-               <img src="img/productos/remera rama.png" alt="Boxy" class="img-default">
-               <img src="img/productos/hover remera destacada.jpeg" alt="Remera Hover" class="img-hover">
-              </div>
-              <h3>Remera boxy</h3>
-              <p class="precio">$42.300</p>
-              <button>Agregar al carrito</button>
-            </article>
-
-            <article class="producto">
-              <div class="img-container">
-               <img src="img/productos/pantalon destacado.png" alt="Pantalon baggy" class="img-default">
-               <img src="img/productos/hover pantalon destacado.jpg" alt="Pantalon baggy" class="img-hover">
-              </div>
-              <h3>Pantalon Baggy cafe</h3>
-              <p class="precio">$42.300</p>
-              <button>Agregar al carrito</button>
-            </article>
+      <article class="producto">
+        <div class="img-container">
+          <img src="img/productos/Remeras/remera rama.png" alt="Boxy" class="img-default">
+          <img src="img/productos/hover remera destacada.jpeg" alt="Remera Hover" class="img-hover">
         </div>
-    </section>
+        <h3>Remera boxy</h3>
+        <p class="precio">$42.300</p>
+        <button>Agregar al carrito</button>
+      </article>
 
-
-
-    <!-- PRODUCTOS DESTACADOS -->
-    <section class="productos-destacados" id="dest"> 
-        <h2>Productos Destacados</h2>
-        <div class="flex-productos">
-
-            <article class="producto">
-              <div class="img-container">
-                <img src="img/productos/buzo destacado.png" alt="Buzo" width="1000" height="300">
-                <img src="img/productos/hover buzo destacado.jpg" alt="Pantalon" class="img-hover">
-                </div>
-                <h3>Buzo NY</h3>
-                <p class="precio">$65.000</p>
-                <button>Agregar al carrito</button>
-            </article>
-
-            <article class="producto">
-              <div class="img-container">
-              <div class="img-container">
-                <img src="img/productos/campera carhartt rama.png" alt="Pantalones" width="135" height="150">
-                <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
-                </div>
-                <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
-                </div>
-              
-                <h3>Bomber Carhartt</h3>
-                <p class="precio">$55.700</p>
-
-                <button>Agregar al carrito</button>
-                
-            </article>
-
-            <article class="producto">
-              <div class="img-container">
-               <img src="img/productos/remera rama.png" alt="Boxy" class="img-default">
-               <img src="img/productos/hover remera destacada.jpeg" alt="Remera Hover" class="img-hover">
-              </div>
-              <h3>Remera boxy</h3>
-              <p class="precio">$42.300</p>
-              <button>Agregar al carrito</button>
-            </article>
-
-            <article class="producto">
-              <div class="img-container">
-               <img src="img/productos/pantalon destacado.png" alt="Pantalon baggy" class="img-default">
-               <img src="img/productos/hover pantalon destacado.jpg" alt="Pantalon baggy" class="img-hover">
-              </div>
-              <h3>Pantalon Baggy cafe</h3>
-              <p class="precio">$42.300</p>
-              <button>Agregar al carrito</button>
-            </article>
+      <article class="producto">
+        <div class="img-container">
+          <img src="img/productos/Pantalones/pantalon destacado.png" alt="Pantalon baggy" class="img-default">
+          <img src="img/productos/hover pantalon destacado.jpg" alt="Pantalon baggy" class="img-hover">
         </div>
-    </section>
+        <h3>Pantalon Baggy cafe</h3>
+        <p class="precio">$42.300</p>
+        <button>Agregar al carrito</button>
+      </article>
+    </div>
+  </section>
 
 
 
-    <!-- FOOTER -->
-    <div class="footer-container">
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="productos-destacados" id="dest">
+    <h2>Productos Destacados</h2>
+    <div class="flex-productos">
+
+      <article class="producto">
+        <div class="img-container">
+          <img src="img/productos/Abrigos/buzo destacado.png " alt="Buzo" width="1000" height="300">
+          <img src="img/productos/hover buzo destacado.jpg" alt="Pantalon" class="img-hover">
+        </div>
+        <h3>Buzo NY</h3>
+        <p class="precio">$65.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+
+      <article class="producto">
+        <div class="img-container">
+          <div class="img-container">
+            <img src="img/productos/Abrigos/campera carhartt rama.png" alt="Pantalones" width="135" height="150">
+            <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
+          </div>
+          <img src="img/productos/hover campera carhartt.jpg" alt="Remera Hover" class="img-hover">
+        </div>
+        <h3>Bomber Carhartt</h3>
+        <p class="precio">$55.700</p>
+        <button>Agregar al carrito</button>
+      </article>
+
+      <article class="producto">
+        <div class="img-container">
+          <img src="img/productos/Remeras/remera rama.png" alt="Boxy" class="img-default">
+          <img src="img/productos/hover remera destacada.jpeg" alt="Remera Hover" class="img-hover">
+        </div>
+        <h3>Remera boxy</h3>
+        <p class="precio">$42.300</p>
+        <button>Agregar al carrito</button>
+      </article>
+
+      <article class="producto">
+        <div class="img-container">
+          <img src="img/productos/Pantalones/pantalon destacado.png" alt="Pantalon baggy" class="img-default">
+          <img src="img/productos/hover pantalon destacado.jpg" alt="Pantalon baggy" class="img-hover">
+        </div>
+        <h3>Pantalon Baggy cafe</h3>
+        <p class="precio">$42.300</p>
+        <button>Agregar al carrito</button>
+      </article>
+    </div>
+  </section>
+
+
+
+
+  <!-- FOOTER -->
+  <div class="footer-container">
     <div class="footer-newsletter">
       <h3>ENTÉRATE SIEMPRE DE LAS ÚLTIMAS NOVEDADES, DROPS EXCLUSIVOS Y MUCHO MÁS.</h3>
       <form>
         <input type="email" placeholder="Correo electrónico">
         <button type="submit">Suscribirse</button>
       </form>
-      <p style="font-size:12px;">Al registrarte, aceptas recibir correos electrónicos de marketing. Consulta nuestra <a href="#">Política de privacidad</a>.</p>
+      <p style="font-size:12px;">Al registrarte, aceptas recibir correos electrónicos de marketing. Consulta nuestra <a
+          href="#">Política de privacidad</a>.</p>
     </div>
 
     <div class="footer-legal">
@@ -200,4 +202,5 @@
 
 
 </body>
+
 </html>
