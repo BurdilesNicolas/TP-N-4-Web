@@ -63,3 +63,20 @@ a {
 .card button:hover {
     background: #85010c;
 }
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton button{
+    background: #00000000;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+.boton button:hover{
+    background: #b4b4b4;
+}
