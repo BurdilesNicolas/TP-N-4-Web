@@ -103,6 +103,9 @@ main h2{
     flex-direction: column;
     display: flex;
 }
+.somos h2{
+    color: #fff;
+}
 .card2{
     border-radius: 10px;
     height: 250px;
