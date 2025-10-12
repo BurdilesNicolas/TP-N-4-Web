@@ -36,3 +36,15 @@ a{
     height:600px;         /*todos los productos de la misma altura*/
     display: block;
 }
+.producto button {
+    background: #000000;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.producto button:hover {
+    background: #85010c;
+}
