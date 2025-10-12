@@ -3,6 +3,7 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#b20000;
+    background-image: url('../img/logos/resized-logo6nosotros.png');
 }
 
 a{
@@ -31,7 +32,12 @@ main{
     box-shadow: 5px 5px 15px rgb(204, 204, 204);
     margin: 20px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    transition: 0.5s ease;
+    background-color:rgb(241, 241, 241);
+}
+.card:hover{
+       transform: scale(1.05);
 }
 #quienes{
     border-radius: 10px;
@@ -40,7 +46,7 @@ main{
     box-shadow: 5px 5px 15px rgb(204, 204, 204);
     margin: 20px;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
 }
 .card h2{
@@ -61,6 +67,19 @@ main h2{
     flex-direction: column;
     text-align: center;
     margin: 20px;
+    border-radius: 10px;
+    height: 250px;
+    width: 500px;
+    box-shadow: 5px 5px 15px rgb(204, 204, 204);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s ease;
+    background-color: rgb(241, 241, 241);
+    transition: 0.5s ease;
+}
+.tarje:hover{
+    transform: scale(1.05);
 }
 .icono{
     background-color: #b20000;
@@ -92,4 +111,12 @@ main h2{
     margin: 20px;
     padding: 20px;
     text-align: left;
+    transition: 0.5s ease;
+    background-image: url('../img/logos/fondonosotros.jpeg');
+}
+.card2:hover{
+       transform: scale(1.05);
+}
+.card2 p{
+    color: #fff;
 }

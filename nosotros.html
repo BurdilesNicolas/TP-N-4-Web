@@ -1,115 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUINAGE-Nosotros</title>
-    <link rel="stylesheet" href="CSS/nosotros.css"> <link rel="stylesheet" href="CSS/set.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUINAGE-Nosotros</title>
+  <link rel="stylesheet" href="CSS/nosotros.css">
+  <link rel="stylesheet" href="CSS/set.css">
 </head>
+
 <body>
-    <!--HEADER-->
-    <header>
-        <div class="barrita">
-          <p>FREE SHIPPING INTERNATIONAL ORDERS +200$</p>
+  <!--HEADER-->
+  <header>
+    <div class="barrita">
+      <p>FREE SHIPPING INTERNATIONAL ORDERS +200$</p>
+    </div>
+    <div class="top-bar">
+      <!-- Links a la izquierda -->
+      <div class="links">
+        <button id="menu"> ☰ MENU </button>
+        <ul>
+          <li><a href="#filo">Filosofia</a></li>
+          <li><a href="#valo">Valores</a></li>
+        </ul>
+      </div>
+
+      <!-- Logo centrado -->
+      <div class="logo">
+        <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
+      </div>
+
+      <!-- Íconos a la derecha -->
+      <div class="icons">
+        <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
+        <a href="#"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
+        <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
+      </div>
+    </div>
+
+    <!-- Menú principal debajo -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" class="btn underline"><span>Inicio</span></a></li>
+        <li><a href="coleccion.html" class="btn underline"><span>Colección</span></a></li>
+        <li><a href="contactos.html" class="btn underline"><span>Contacto</span></a></li>
+        <li><a href="nosotros.html" class="btn underline"><span>Nosotros</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="filosofia">
+      <h2>Nuestra Filosofia</h2>
+      <div class="cont" id="filo">
+        <div id="vision" class="card">
+          <h2>Nuestra Visión</h2>
+          <p clase="first"> Ser la marca referencia para quienes buscan un estilo que elegante pero urbano. Aspiramos a
+            construiruna comunidad en toda Argentina que valore la creatividad por encima de la conformidad. </p> <br>
         </div>
-        <div class="top-bar">
-          <!-- Links a la izquierda -->
-          <div class="links">
-            <button id="menu"> ☰ MENU </button>
-              <ul>
-                <li><a href="#filo">Filosofia</a></li>
-                <li><a href="#valo">Valores</a></li>
-              </ul>            
-          </div>
-
-          <!-- Logo centrado -->
-          <div class="logo">
-            <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
-          </div>
-
-          <!-- Íconos a la derecha -->
-          <div class="icons">
-            <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
-            <a href="#"><img src="img/logos/lupa.png"width="35" height="35"  alt="Buscar"></a>
-            <a href="#"><img src="img/logos/carrito_new_recolored.png"width="35" height="35" alt="Carrito"></a>
-          </div>
+        <div id="mision" class="card">
+          <h2>Nuestra Misión</h2>
+          <p class="secound">Nuestra misión es desarrollar un espacio digital moderno, intuitivo y accesible, que
+            facilite la experiencia de compra de ropa, en especial a quienes siguen las últimas tendencias.</p> <br>
         </div>
-
-        <!-- Menú principal debajo -->
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html" class="btn underline"><span>Inicio</span></a></li>
-                <li><a href="coleccion.html" class="btn underline"><span>Colección</span></a></li>
-                <li><a href="contactos.html" class="btn underline"><span>Contacto</span></a></li>
-                <li><a href="nosotros.html" class="btn underline"><span>Nosotros</span></a></li>
-                  
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="filosofia">
-            <h2>Nuestra Filosofia</h2>
-            <div class="cont" id="filo">
-                  <div id="quienes" class="card">
-                    <h2 >Nuestra Visión</h2>
-                    <p clase="first"> Ser la marca referencia para quienes buscan un estilo que elegante pero urbano. Aspiramos a construiruna comunidad en toda Argentina que valore la creatividad por encima de la conformidad. </p> <br>
-                  </div>
-                  <div id="mision" class="card">
-                    <h2>Nuestra Misión</h2>
-                    <p class="secound">Nuestra misión es desarrollar un espacio digital moderno, intuitivo y accesible, que facilite la experiencia de compra de ropa, en especial a quienes siguen las últimas tendencias.</p> <br>
-                  </div>
+      </div>
+    </section>
+    <section class="somos">
+      <h2>¿Quiénes somos?</h2>
+      <div class="card2" id="quienes">
+        <p clase="first">Somos un grupo de estudiantes, unidos por nuestra pasión tanto por la programación como la
+          ropa. Hemos decidido fusionar estos dos mundos para crear algo único, el desarrollo de un sitio web para
+          facilitar la compra de ropa a todas las personas que siguen las tendencias. Para nosotros, la creatividad no
+          tiene límites. </p> <br>
+      </div>
+    </section>
+    <section class="valores">
+      <h2>Nuestros Valores</h2>
+      <div class="cont2" id="valo">
+        <div class="est">
+          <div class="tarje">
+            <div class="icono">
+              <p>-1-</p>
             </div>
-        </section>
-        <section class="somos">
-                <h2 >¿Quiénes somos?</h2>
-          <div class="card2" id="quienes">
-                <p clase="first">Somos un grupo de estudiantes, unidos por nuestra pasión tanto por la programación como la ropa. Hemos decidido fusionar estos dos mundos para crear algo único, el desarrollo de un sitio web para facilitar la compra de ropa a todas las personas que siguen las tendencias. Para nosotros, la creatividad no tiene límites. </p> <br>
+            <h3>Creatividad</h3>
+            <p>Cada diseño nace de nuestra visión, seguiendo la últimas tendencias.</p>
           </div>
-        </section>
-        <section class="valores">
-            <h2>Nuestros Valores</h2>
-            <div class="cont2" id="valo">
-                  <div class="est">
-                      <div class="tarje">
-                          <div class="icono">
-           	              <p>-1-</p>
-                          </div>
-                          <h3>Creatividad</h3>
-                          <p>Cada diseño nace de nuestra visión, seguiendo la últimas tendencias.</p>
-                      </div>
-                      <div class="tarje">
-                          <div class="icono">
-           	              <p>-2-</p>
-                          </div>
-                          <h3>Calidad</h3>
-                          <p>Utilizamos materiales premium y técnicas artesanales para garantizar durabilidad.</p>
-                      </div>
-                      <div class="tarje">
-                          <div class="icono">
-           	              <p>-3-</p>
-                          </div>
-                          <h3>Detallistas</h3>
-                          <p>Cada costura, cada acabado, cada elemento es cuidadosamente considerado.</p>
-                      </div>
-                      <div class="tarje">
-                          <div class="icono">
-           	              <p>-4-</p>
-                          </div>
-                          <h3>Compañerismo</h3>
-                          <p>Somos un grupo unido por una misma idea.</p>
-                      </div>
-                  </div>  
+          <div class="tarje">
+            <div class="icono">
+              <p>-2-</p>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="dere">
-              <p> &copy; 2025 RUINAGE - Todos los derechos reservados.</p>
-               <img src="img/logos/medios de pago.png" alt="medios de pago">
+            <h3>Calidad</h3>
+            <p>Utilizamos materiales premium y técnicas artesanales para garantizar durabilidad.</p>
+          </div>
+          <div class="tarje">
+            <div class="icono">
+              <p>-3-</p>
+            </div>
+            <h3>Detallistas</h3>
+            <p>Cada costura, cada acabado, cada elemento es cuidadosamente considerado.</p>
+          </div>
+          <div class="tarje">
+            <div class="icono">
+              <p>-4-</p>
+            </div>
+            <h3>Compañerismo</h3>
+            <p>Somos un grupo unido por una misma idea.</p>
+          </div>
         </div>
-        <div class="docu">
-            <p> <a href="document/RuinageTerminos.pdf">Aviso legal<br>Términos y condiciones<br>Políticas de devoluciones<br>Política de cookies<br>Políticas de privacidad<br></a></p>
-        </div>
-    </footer>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="dere">
+      <p> &copy; 2025 RUINAGE - Todos los derechos reservados.</p>
+      <img src="img/logos/medios de pago.png" alt="medios de pago">
+    </div>
+    <div class="docu">
+      <p> <a href="document/RuinageTerminos.pdf">Aviso legal<br>Términos y condiciones<br>Políticas de
+          devoluciones<br>Política de cookies<br>Políticas de privacidad<br></a></p>
+    </div>
+  </footer>
 </body>
+
 </html>
