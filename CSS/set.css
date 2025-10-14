@@ -16,6 +16,47 @@
 }
 
 
+/* === Barra superior de anuncios === */
+.barra-anuncios {
+  margin: 0;
+  width: 100vw;
+  background-color: #610909; /* rojo o el color que uses */
+  color: #fff;
+  overflow: hidden; /* oculta lo que se sale del contenedor */
+  white-space: nowrap;
+  padding: 8px 0;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+}
+
+/* Contenedor que se mueve */
+.anuncios-movimiento {
+  display: inline-block;
+  animation: mover-anuncios 70s linear infinite; /* velocidad y repetición */
+}
+
+/* Los textos dentro del carrusel */
+
+.anuncios-movimiento span {
+  margin-right: 200px; /* espacio entre mensajes */
+}
+
+/* Animación del movimiento continuo */
+@keyframes mover-anuncios {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
 
 /*HEADER (En .logo img ajusto tanto el tamaño, altura, ancho y la posicion con el relative para
 que quede centrado*/
