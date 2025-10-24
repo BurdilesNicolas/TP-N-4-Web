@@ -79,7 +79,9 @@ color: #ffffff;
 }
 
 .producto button:hover {
-    border: 2px solid #b20000;
+  color: #610909;
+   background-color: #ffffff; /* rojo */
+    border: 2px solid #610909;
 }
 
   /* NEWSLETTER */
