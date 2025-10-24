@@ -65,17 +65,17 @@ a {
     background-color: #f36161;
 }
 /* Hover en inputs, selects y textarea */
-.form-contacto input: hover,
-.form-contacto select: hover,
-.form-contacto textarea: hover {
+.form-contacto input:hover,
+.form-contacto select:hover,
+.form-contacto textarea:hover {
     border-color: #b30059;
     box-shadow: 0 0 5px #ff66b2;
     transition: 0.3s;
 }
 /* Efecto cuando el campo esta activo*/
-.form-contacto input: focus,
-.form-contacto select: focus,
-.form-contacto textarea: focus {
+.form-contacto input:focus,
+.form-contacto select:focus,
+.form-contacto textarea:focus {
     outline: none;
     border-color: #ff66b2;
     box-shadow: 0 0 8px #ffb3d9;
