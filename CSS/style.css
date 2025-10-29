@@ -50,6 +50,7 @@ color: #ffffff;
   }
   /* PRODUCTOS DESTACADOS */
   .productos-destacados h2{
+    color: #222;
     margin-left: 20px;
     margin-bottom: 20px;
   }
@@ -68,9 +69,9 @@ color: #ffffff;
   }
   /* Botón agregar al carrito */
 .producto button {
+    border: 2px solid #610909;
     background-color: #610909; /* rojo */
     color: #ffffff;             /* texto blanco */
-    border: none;               /* sin borde */
     padding: 10px 20px;         /* espacio interno */
     border-radius: 20px;         /* esquinas ligeramente redondeadas */
     cursor: pointer;            /* puntero al pasar por encima */
