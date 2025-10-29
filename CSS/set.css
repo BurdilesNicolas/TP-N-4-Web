@@ -352,3 +352,101 @@ footer{
     padding-left: 15px;
     gap:15px;
 }
+
+
+
+
+/* ===== Fondo borroso de toda la página ===== */
+.blur-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4); /* oscurece un poco */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 998;
+}
+
+.blur-bg.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ===== Panel lateral ===== */
+/* ===== Panel lateral blanco ===== */
+.search-panel {
+  position: fixed;
+  top:145px;
+  right: -420px; /* más negativo para ocultar del todo */
+  width: 400px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 0 20px rgba(0, 0, 0, 0.3);
+  padding: 50px 35px;
+  transition: right 0.5s ease;
+  z-index: 999;
+  color: #610909;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; /* evita que el padding sume al ancho */
+}
+
+.search-panel.active {
+  right: 0; /* visible al activarse */
+}
+
+
+/* Título */
+.search-panel h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #610909;
+  font-weight: bold;
+}
+
+/* Input */
+.search-panel input {
+  width: 94%;
+  padding: 10px;
+  border: 1px solid #610909;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #610909;
+}
+
+/* Botón */
+.search-panel .search-btn {
+  width: 100%;
+  background-color: #610909;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-panel .search-btn:hover {
+  background-color: #b20000;
+  transform: scale(1.05);
+}
+
+/* Botón cerrar */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: #610909;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+}

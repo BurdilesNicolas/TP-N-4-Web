@@ -44,11 +44,12 @@
       </div>
 
       <!-- Íconos a la derecha -->
-      <div class="icons">
-        <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
-        <a href="#"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
-        <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
-      </div>
+<div class="icons">
+  <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
+  <a href="#" id="openSearch"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
+  <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
+</div>
+
     </div>
 
     <!-- Menú principal debajo -->
@@ -67,7 +68,7 @@
   <section class="hero">
     <div class="left">
       <h2>Nueva Colección 2025 <br> Temporada Invernal</h2>
-      <button><a href="coleccion.html">SHOP NOW</a></button>
+      <button href="coleccion.html">SHOP NOW</button>
     </div>
     <div class="right">
       <p>Colección 2025 Invernal creada y diseñada por RUINAGE</p>
@@ -141,8 +142,8 @@
 
       <article class="producto">
         <div class="img-container">
-          <img src="img/productos/Abrigos/campera realtree dest.png " alt="Buzo" width="1000" height="300">
-          <img src="img/productos/hover buzo destacado.jpg" alt="Pantalon" class="img-hover">
+          <img src="img/productos/Abrigos/cold culture x realtree jacket.png" alt="Buzo" width="1000" height="300">
+          <img src="img/productos/hover campera realtree.jpeg" alt="Pantalon" class="img-hover">
         </div>
         <div class="info-producto">
         <h3>Cazadora realtree</h3>
@@ -180,7 +181,7 @@
       <article class="producto">
         <div class="img-container">
           <img src="img/productos/Pantalones/pantalon realtree dest.png" alt="Pantalon baggy" class="img-default">
-          <img src="img/productos/hover pantalon destacado.jpg" alt="Pantalon baggy" class="img-hover">
+          <img src="img/productos/hover pantalon realtree dest.jpeg" alt="Pantalon baggy" class="img-hover">
         </div>
         <div class="info-producto">
         <h3>Pantalon realtree double-knee</h3>
@@ -223,6 +224,49 @@
     </div>
     <p>© 2025 - RUINAGE® Marca registrada anachei</p>
   </div>
+
+
+
+<!-- PANEL LATERAL DE BÚSQUEDA -->
+<!-- Fondo borroso -->
+<div id="blurBackground" class="blur-bg"></div>
+
+<!-- Panel lateral de búsqueda -->
+<div id="searchPanel" class="search-panel">
+  <button id="closeSearch" class="close-btn">✕</button>
+  <h2>Buscar productos</h2>
+  <input type="text" placeholder="Escribí lo que querés buscar...">
+  <button class="search-btn">Buscar</button>
+</div>
+
+
+
+<script>
+  const openSearch = document.getElementById("openSearch");
+  const closeSearch = document.getElementById("closeSearch");
+  const searchPanel = document.getElementById("searchPanel");
+  const blurBackground = document.getElementById("blurBackground");
+
+  openSearch.addEventListener("click", (e) => {
+    e.preventDefault();
+    searchPanel.classList.add("active");
+    blurBackground.classList.add("active");
+  });
+
+  closeSearch.addEventListener("click", () => {
+    searchPanel.classList.remove("active");
+    blurBackground.classList.remove("active");
+  });
+
+  blurBackground.addEventListener("click", () => {
+    searchPanel.classList.remove("active");
+    blurBackground.classList.remove("active");
+  });
+</script>
+
+
+
+
 
 
 
