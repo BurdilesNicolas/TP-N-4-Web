@@ -304,9 +304,8 @@ blurCart.addEventListener("click", () => {
   const cookieBanner = document.getElementById("cookieBanner");
 
   // Mostrar solo si no fue aceptado antes
-  if (!localStorage.getItem("cookiesAccepted")) {
     cookieBanner.classList.add("show");
-  }
+  
 
   // Al aceptar
   acceptCookies.addEventListener("click", () => {
