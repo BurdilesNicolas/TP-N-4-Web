@@ -450,3 +450,82 @@ footer{
   cursor: pointer;
   font-weight: bold;
 }
+
+/* ===== Fondo borroso para el carrito ===== */
+#blurCart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 998;
+}
+
+#blurCart.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ===== Panel lateral del carrito ===== */
+.cart-panel {
+  position: fixed;
+  top: 145px;
+  right: -420px;
+  width: 400px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 0 20px rgba(0, 0, 0, 0.3);
+  padding: 50px 35px;
+  transition: right 0.5s ease;
+  z-index: 999;
+  color: #610909;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.cart-panel.active {
+  right: 0;
+}
+
+/* Título del carrito */
+.cart-panel h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #610909;
+  font-weight: bold;
+}
+
+/* Contenido del carrito */
+.cart-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Botón del carrito */
+.cart-btn {
+  width: 100%;
+  background-color: #610909;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cart-btn:hover {
+  background-color: #b20000;
+  transform: scale(1.05);
+}
+
