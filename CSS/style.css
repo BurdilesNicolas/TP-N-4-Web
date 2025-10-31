@@ -209,3 +209,62 @@ color: #ffffff;
   align-self: center;
   margin-top: 10px;
 }
+
+
+
+/* === Banner de cookies === */
+.cookie-banner {
+  position: fixed;
+  bottom: -150px; /* inicialmente oculto */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+  background: #ffffff;
+  color: #610909; 
+  border-radius: 0px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  padding: 15px 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  z-index: 2000;
+  transition: bottom 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.cookie-banner.show {
+  bottom: 30px; /* aparece */
+  opacity: 1;
+}
+
+.cookie-banner.hide {
+  opacity: 0;
+  bottom: -150px; /* se desliza hacia abajo */
+}
+
+.cookie-banner p {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.cookie-banner a {
+  color: #b20000;
+  text-decoration: underline;
+}
+
+.cookie-banner button {
+  border: 2px solid #610909;
+  background-color: #610909;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cookie-banner button:hover {
+  color: #610909;
+   background-color: #ffffff;
+    border: 2px solid #610909;
+}
