@@ -40,8 +40,8 @@
             </div>
             <div class="icons">
                 <a href="#"><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a>
-                <a href="#"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
-                <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
+                <a href="#" id="openSearch"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
+  <a href="#"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
             </div>
         </div>
         <nav class="navbar">
@@ -186,6 +186,33 @@
                     devoluciones<br>Política de cookies<br>Políticas de privacidad<br></a></p>
         </div>
     </footer>
+
+<!-- PANEL LATERAL DE BÚSQUEDA -->
+<!-- Fondo borroso -->
+<div id="blurBackground" class="blur-bg"></div>
+
+<!-- Panel lateral de búsqueda -->
+<div id="searchPanel" class="search-panel">
+  <button id="closeSearch" class="close-btn">✕</button>
+  <h2>Buscar productos</h2>
+  <input type="text" placeholder="Escribí lo que querés buscar...">
+  <button class="search-btn">Buscar</button>
+</div>
+
+<!-- PANEL LATERAL DEL CARRITO -->
+
+<div id="blurCart" class="blur-bg"></div>
+<div id="cartPanel" class="cart-panel">
+  <button id="closeCart" class="close-btn">✕</button>
+  <h2>Tu Carri  to</h2>
+  <div class="cart-content">
+    <p>No tienes productos en el carrito todavía.</p>
+  </div>
+  <button class="cart-btn">Finalizar compra</button>
+</div>
+
+<script src="index.js"></script>
+
 </body>
 
 </html>
