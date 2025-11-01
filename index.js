@@ -1,3 +1,7 @@
+ document.getElementById("shopNowBtn").addEventListener("click", () => {
+  window.location.href = "coleccion.html";
+});
+
  const openSearch = document.getElementById("openSearch");
   const closeSearch = document.getElementById("closeSearch");
   const searchPanel = document.getElementById("searchPanel");
