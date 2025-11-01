@@ -10,6 +10,24 @@
 </head>
 
 <body>
+<!-- ===== LOADER (versión final con footer fijo) ===== -->
+<div id="loader" class="loader-overlay">
+  <div class="loader-inner">
+    <img src="img/logos/logo carga.png" alt="Logo RUINAGE" class="loader-logo">
+    <h1 class="loader-title">RUINAGE</h1>
+
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+
+  <!-- Footer separado para que quede fijo abajo -->
+  <footer class="loader-footer">
+ <strong> © 2025 RUINAGE® | Creando estilo desde lo underground</strong>
+  </footer>
+</div>
+
+
 
   <!--HEADER-->
   <header>
@@ -229,7 +247,7 @@
   <p>
     🍪Usamos cookies para mejorar tu experiencia en RUINAGE. 
     Al continuar navegando aceptás nuestra 
-    <a href="#">Política de Cookies</a>.
+    <a href="document/RuinageTerminos.pdf">Política de Cookies</a>.
   </p>
   <button id="acceptCookies">Aceptar</button>
 </div>
@@ -258,66 +276,7 @@
   <button class="cart-btn">Finalizar compra</button>
 </div>
 
-<script>
-  const openSearch = document.getElementById("openSearch");
-  const closeSearch = document.getElementById("closeSearch");
-  const searchPanel = document.getElementById("searchPanel");
-  const blurBackground = document.getElementById("blurBackground");
-
-  openSearch.addEventListener("click", (e) => {
-    e.preventDefault();
-    searchPanel.classList.add("active");
-    blurBackground.classList.add("active");
-  });
-
-  closeSearch.addEventListener("click", () => {
-    searchPanel.classList.remove("active");
-    blurBackground.classList.remove("active");
-  });
-
-  blurBackground.addEventListener("click", () => {
-    searchPanel.classList.remove("active");
-    blurBackground.classList.remove("active");
-  });
-  const cartIcon = document.querySelector('.icons a[href="#"]:nth-child(3)');
-const closeCart = document.getElementById("closeCart");
-const cartPanel = document.getElementById("cartPanel");
-const blurCart = document.getElementById("blurCart");
-
-cartIcon.addEventListener("click", (e) => {
-  e.preventDefault();
-  cartPanel.classList.add("active");
-  blurCart.classList.add("active");
-});
-
-closeCart.addEventListener("click", () => {
-  cartPanel.classList.remove("active");
-  blurCart.classList.remove("active");
-});
-
-blurCart.addEventListener("click", () => {
-  cartPanel.classList.remove("active");
-  blurCart.classList.remove("active");
-});
-
-
-  const cookieBanner = document.getElementById("cookieBanner");
-
-  // Mostrar solo si no fue aceptado antes
-    cookieBanner.classList.add("show");
-  
-
-  // Al aceptar
-  acceptCookies.addEventListener("click", () => {
-    cookieBanner.classList.remove("show");
-    cookieBanner.classList.add("hide");
-    setTimeout(() => {
-      cookieBanner.style.display = "none";
-    }, 500); // Espera a que termine la animación
-  });
-</script>
-
-
+<script src="index.js"></script>
 
 </body>
 
