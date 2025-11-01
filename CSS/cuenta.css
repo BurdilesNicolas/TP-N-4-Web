@@ -34,3 +34,49 @@ body{
         opacity: 1;
     }
 }
+.espacio{
+    width: auto;
+    height: 50px;
+}
+.Form input{
+    width: 95%;
+    height: 30px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+#btn-uno{
+    background-color: #4400ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#cerrarForm{
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: #b20000;
+    width: 50px;
+    border-radius: 15px;
+    top: 25px;
+    right: 15px;
+    cursor: pointer;
+}
+#btn-dos,
+#btn-tres{
+    background-color: lightgray;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
