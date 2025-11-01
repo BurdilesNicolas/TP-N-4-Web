@@ -1,0 +1,36 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 243px;
+    height: 120px;
+}
+.Form-contenido{
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    border-radius: 12px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow:0 4px 15px rgba(0, 0, 0, 0.3);
+    animation: aparecer 0.3s ease-out;
+}
+@keyframes aparecer {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
