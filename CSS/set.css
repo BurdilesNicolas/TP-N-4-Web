@@ -159,6 +159,14 @@ header {
     font-weight: bold; /*Grosor del texto*/
     color:#610909;
 }
+#cuenta {
+    background-color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 /*FOOTER*/
 
