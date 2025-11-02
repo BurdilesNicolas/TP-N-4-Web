@@ -2,7 +2,9 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#b20000;
 }
-
+main{
+    margin-top: 180px;
+}
 a{
     color:#610909;
     text-decoration: none;

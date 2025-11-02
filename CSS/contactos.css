@@ -5,6 +5,9 @@ body{
     background-color: #f9f9f9;
     color: #b20000;
 }
+main{
+    margin-top: 180px;
+}
 a {
     color: #610909;
     text-decoration: none;
