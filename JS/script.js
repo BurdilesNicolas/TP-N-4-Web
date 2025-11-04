@@ -1,4 +1,54 @@
- document.getElementById("shopNowBtn").addEventListener("click", () => {
+document.addEventListener("DOMContentLoaded", () => {
+  // === PANEL DE BÚSQUEDA ===
+  const openSearch = document.getElementById("openSearch");
+  const closeSearch = document.getElementById("closeSearch");
+  const searchPanel = document.getElementById("searchPanel");
+  const blurBackground = document.getElementById("blurBackground");
+
+  if (openSearch && closeSearch && searchPanel && blurBackground) {
+    openSearch.addEventListener("click", (e) => {
+      e.preventDefault();
+      searchPanel.classList.add("active");
+      blurBackground.classList.add("active");
+    });
+
+    closeSearch.addEventListener("click", () => {
+      searchPanel.classList.remove("active");
+      blurBackground.classList.remove("active");
+    });
+
+    blurBackground.addEventListener("click", () => {
+      searchPanel.classList.remove("active");
+      blurBackground.classList.remove("active");
+    });
+  }
+
+  // === PANEL DEL CARRITO ===
+  const openCart = document.getElementById("openCart");
+  const closeCart = document.getElementById("closeCart");
+  const cartPanel = document.getElementById("cartPanel");
+  const blurCart = document.getElementById("blurCart");
+
+  if (openCart && closeCart && cartPanel && blurCart) {
+    openCart.addEventListener("click", (e) => {
+      e.preventDefault();
+      cartPanel.classList.add("active");
+      blurCart.classList.add("active");
+    });
+
+    closeCart.addEventListener("click", () => {
+      cartPanel.classList.remove("active");
+      blurCart.classList.remove("active");
+    });
+
+    blurCart.addEventListener("click", () => {
+      cartPanel.classList.remove("active");
+      blurCart.classList.remove("active");
+    });
+  }
+});
+
+document.getElementById("shopNowBtn").addEventListener("click", () => {
   window.location.href = "coleccion.html";
 });
 
