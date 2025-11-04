@@ -117,3 +117,9 @@ a {
     position: relative;
     overflow: hidden;
 }
+.card::before {
+content: '';
+position: absolute;
+width: 100px;
+background-image: -o-linear-gradient(18e0deg, rgb(0, 183, ));
+}
