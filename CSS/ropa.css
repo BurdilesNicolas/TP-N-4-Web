@@ -3,7 +3,7 @@ body{
     color:#b20000;
 }
 main{
-    margin-top: 200px;
+    margin-top: 500px;
 }
 a{
     color:#610909;
@@ -12,6 +12,7 @@ a{
     font-weight: bold;
 }
 .main h2{
+    position: absolute;
     font-size: 1.8rem;
     margin: 0%;
     text-align: center;
