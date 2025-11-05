@@ -393,8 +393,6 @@ footer{
   background-color: #b20000;
   transform: scale(1.05);
 }
-
-/* --- Pantallas medianas (tablets) --- */
 @media (max-width: 992px) { 
   .top-bar {
     flex-direction: column; 
