@@ -394,3 +394,32 @@ footer{
   transform: scale(1.05);
 }
 
+/* --- Pantallas medianas (tablets) --- */
+@media (max-width: 992px) { 
+  .top-bar {
+    flex-direction: column; 
+    height: auto; 
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    gap: 15px; 
+    margin: 10px 0; 
+  }
+
+  .logo img {
+    max-height: 90px; 
+  }
+
+  .search-panel,
+  .cart-panel {
+    width: 70%; 
+    right: -70%;
+  }
+
+  .productos {
+    margin-top: 140px; 
+  }
+}
+
+
