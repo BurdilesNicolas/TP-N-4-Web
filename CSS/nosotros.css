@@ -29,6 +29,9 @@ main{
     max-width: 1200px;
     margin: 0 auto;
 }
+.filosofia{
+    margin-top: 145px;
+}
 /*Selectores por clase*/
 /*Main*/
 .cont{
