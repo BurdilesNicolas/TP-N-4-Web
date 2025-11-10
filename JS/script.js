@@ -198,3 +198,24 @@ blurCart.addEventListener("click", () => {
     }
   }
 });
+document.querySelector(".search-btn").addEventListener("click", () => {
+  const query = document.querySelector(".search-panel input").value.toLowerCase().trim();
+  const productos = document.querySelectorAll(".producto");
+
+  let encontrado = false;
+
+  productos.forEach(producto => {
+    const nombre = producto.dataset.nombre.toLowerCase();
+    if (nombre.includes(query)) {
+      producto.scrollIntoView({ behavior: "smooth", block: "center" });
+      producto.style.outline = "3px solid #b20000";
+      setTimeout(() => (producto.style.outline = "none"), 2000);
+      encontrado = true;
+    }
+  });
+
+  if (!encontrado) {
+    alert("No se encontró ningún producto con ese nombre.");
+  }
+});
+
