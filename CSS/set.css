@@ -220,6 +220,11 @@ footer{
   left: 50%;
   transform: translateX(-50%);
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* ===== Fondo borroso de toda la página ===== */
 .blur-bg {
