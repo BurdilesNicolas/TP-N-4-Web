@@ -438,12 +438,14 @@ body {
 }
 
 .cart-info h4 {
+  text-align: center;
   margin: 0;
   font-size: 14px;
   color: #610909;
 }
 
 .cart-info p {
+  text-align: center;
   margin: 0;
   font-size: 13px;
   color: #333;
