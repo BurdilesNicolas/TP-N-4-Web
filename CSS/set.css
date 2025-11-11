@@ -424,5 +424,37 @@ body {
     margin-top: 140px; 
   }
 }
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.cart-item img {
+  border-radius: 8px;
+}
+
+.cart-info h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #610909;
+}
+
+.cart-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #333;
+}
+
+.remove-item {
+  background: none;
+  border: none;
+  color: #b20000;
+  font-size: 18px;
+  cursor: pointer;
+}
 
 
