@@ -136,6 +136,15 @@ header {
     margin-left: 20px;
 }
 
+.icons a img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icons a img:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
+
 .logo {
     position: relative;
     left: 75px;
@@ -161,7 +170,6 @@ header {
 }
 #cuenta {
     background-color: #fff;
-    padding: 12px 24px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
