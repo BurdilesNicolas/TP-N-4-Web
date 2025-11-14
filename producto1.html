@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUINAGE</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/set.css">
+   <style>
+    /* ======== ESTILOS DEL PRODUCTO ======== */
+
+    .producto-detalle {
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      padding: 140px 50px 60px;
+    }
+
+    .producto-imagen {
+      padding-top: 30px;
+      max-width: 480px;
+    }
+
+    .producto-imagen img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Miniaturas */
+    .miniaturas {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .miniaturas img {
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .miniaturas img:hover {
+      transform: scale(1.1);
+    }
+
+    /* INFO DEL PRODUCTO */
+    .producto-info {
+      padding-top: 30px;
+      max-width: 450px;
+      color: #610909;
+    }
+
+    .producto-info h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .producto-info .precio {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    /* Botones de talles */
+    .talles {
+      margin-bottom: 20px;
+    }
+
+    .talles button {
+      border: 2px solid #610909;
+      background: #fff;
+      color: #610909;
+      padding: 10px 18px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .talles button:hover,
+    .talles button.active {
+      background: #610909;
+      color: #fff;
+    }
+
+    /* Botón agregar al carrito */
+    .agregar-carrito {
+      background: #610909;
+      color: #fff;
+      border: none;
+      padding: 15px 40px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: 0.3s;
+      margin-top: 20px;
+    }
+
+    .agregar-carrito:hover {
+      background: #b20000;
+      transform: scale(1.07);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .producto-detalle {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .producto-info {
+        max-width: 100%;
+      }
+
+      .talles button {
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header>
+<div class="barra-anuncios">
+  <div class="anuncios-movimiento">
+    <span>Envíos gratis en compras superiores a $40.000</span>
+    <span>Nuevas colecciones disponibles</span>
+    <span>3 y 6 cuotas sin interés</span>
+    <span>Envíos gratis en compras superiores a $40.000</span>
+    <span>Nuevas colecciones disponibles</span>
+    <span>3 y 6 cuotas sin interés</span>
+    <span>Envíos gratis en compras superiores a $40.000</span>
+    <span>Nuevas colecciones disponibles</span>
+    <span>3 y 6 cuotas sin interés</span>
+
+  </div>
+</div>
+        <div class="top-bar">
+      <!-- Links a la izquierda -->
+      <div class="links">
+        <button id="menu"> ☰ MENU</button>
+        <ul>
+          <li><a href="#dest">Destacados</a></li>
+          <li><a href="#noso">Nosotros</a></li>
+          <li><a href="#link">Links</a></li>
+        </ul>
+      </div>
+
+      <!-- Logo centrado -->
+      <div class="logo">
+        <img src="img/logos/Ruinage (2).png" alt="Logo-RUINAGE">
+      </div>
+
+      <!-- Íconos a la derecha -->
+<div class="icons">
+        <button id="cuenta"><a><img src="img/logos/logo_cuenta.png" width="35" height="35" alt="Cuenta"></a></button>
+<a href="#" id="openSearch"><img src="img/logos/lupa.png" width="35" height="35" alt="Buscar"></a>
+  <a href="#" id="openCart"><img src="img/logos/carrito_new_recolored.png" width="35" height="35" alt="Carrito"></a>
+</div>
+
+    </div>
+
+    <!-- Menú principal debajo -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html" class="btn underline"><span>Inicio</span></a></li>
+        <li><a href="coleccion.html" class="btn underline"><span>Colección</span></a></li>
+        <li><a href="contactos.html" class="btn underline"><span>Contacto</span></a></li>
+        <li><a href="nosotros.html" class="btn underline"><span>Nosotros</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO DEL PRODUCTO -->
+  <section class="producto-detalle">
+
+    <!-- IMAGEN PRINCIPAL -->
+    <div class="producto-imagen">
+      <img id="mainImg" src="img/productos/Abrigos/buzo destacado.png" alt="Producto">
+
+      <div class="miniaturas">
+        <img src="img/productos/Abrigos/buzo destacado.png" onclick="cambiarImagen(this)">
+        <img src="img/productos/hover buzo destacado.jpg" onclick="cambiarImagen(this)">
+      </div>
+    </div>
+
+    <!-- INFO -->
+    <div class="producto-info">
+      <h1>Buzo NY Oversize</h1>
+      <p class="precio">$65.000</p>
+
+      <h3>Talles disponibles</h3>
+      <div class="talles">
+        <button data-talle="S">S</button>
+        <button data-talle="M">M</button>
+        <button data-talle="L">L</button>
+        <button data-talle="XL">XL</button>
+      </div>
+
+      <button class="agregar-carrito">Agregar al carrito</button>
+
+      <h3>Descripción</h3>
+      <p>
+        Buzo premium de corte oversize, tela gruesa y suave, ideal para la temporada invernal.
+        Diseño exclusivo RUINAGE® con estilo urbano y moderno.
+      </p>
+    </div>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+    <footer>
+        <div class="dere">
+              <p> &copy; 2025 RUINAGE - Todos los derechos reservados.</p>
+              <img src="img/logos/medios de pago.png" alt="medios de pago">
+            <p class="docu"> <a href="document/RuinageTerminos.pdf">Aviso legal - Términos y condiciones - Políticas de devoluciones - Política de cookies - Políticas de privacidad<br></a></p>
+        </div>
+    </footer>
+
+<!-- Panel de búsqueda -->
+<div id="blurBackground" class="blur-bg"></div>
+<div id="searchPanel" class="search-panel">
+  <button id="closeSearch" class="close-btn">✕</button>
+  <h2>Buscar productos</h2>
+  <input type="text" placeholder="Escribí lo que querés buscar...">
+  <button class="search-btn">Buscar</button>
+</div>
+
+<!-- Panel del carrito -->
+<div id="blurCart" class="blur-bg"></div>
+<div id="cartPanel" class="cart-panel">
+  <button id="closeCart" class="close-btn">✕</button>
+  <h2>Tu Carrito</h2>
+  <div class="cart-content">
+    <p>No tienes productos en el carrito todavía.</p>
+  </div>
+  <button class="cart-btn">Finalizar compra</button>
+</div>
+
+
+<script src="JS/script.js"></script>
+<script src="JS/abrir.js"></script>
+</body>
+
+</html>

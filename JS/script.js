@@ -284,3 +284,13 @@ document.querySelectorAll(".add-to-cart").forEach(btn => {
 // Render inicial (si había algo guardado)
 renderCarrito();
 
+    function cambiarImagen(img) {
+      document.getElementById("mainImg").src = img.src;
+    }
+
+    // Selector de talle
+    const talles = document.querySelectorAll(".talles button");
+    talles.forEach(btn => btn.addEventListener("click", () => {
+      talles.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+    }));
