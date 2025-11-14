@@ -108,6 +108,38 @@ color: #ffffff;
       padding: 40px;
   }
 
+  /* 1) Asegurar que la tarjeta sea contenedor posicionable */
+.producto {
+  position: relative;
+}
+
+/* 2) Link invisible que ocupa toda la tarjeta */
+.producto-link {
+  position: absolute;
+  inset: 0;            /* top:0 right:0 bottom:0 left:0 */
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 2;          /* encima de imágenes pero debajo del botón */
+  background: transparent;
+  cursor: pointer;
+  text-indent: -9999px; /* oculta cualquier texto interno si lo tuviese */
+}
+
+/* 3) Evitar que imágenes capturen el click */
+.img-container img,
+.img-container .img-hover {
+  pointer-events: none;
+}
+
+/* 4) Mantener el botón clickeable por encima del link invisible */
+.producto button,
+.producto .add-to-cart {
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+}
+
   .producto{
       display: flex;
       flex-direction: column; /* apila img + texto + botón */

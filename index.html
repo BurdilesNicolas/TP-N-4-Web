@@ -95,22 +95,32 @@
 
   <!-- PRODUCTOS DESTACADOS -->
   <section class="productos-destacados" id="dest">
-    <h2>Productos Destacados</h2>
-    <div class="flex-productos">
+  <h2>Productos Destacados</h2>
 
-      <article class="producto" data-nombre="buzo ny" 
-         data-precio="45000" 
-         data-imagen="img/productos/Abrigos/buzo destacado.png">
-        <div class="img-container">
-          <img src="img/productos/Abrigos/buzo destacado.png " alt="Buzo" width="1000" height="300">
-          <img src="img/productos/hover buzo destacado.jpg" alt="Pantalon" class="img-hover">
-        </div>
-        <div class="info-producto">
+  <div class="flex-productos">
+
+    <article class="producto" 
+      data-nombre="buzo ny" 
+      data-precio="45000" 
+      data-imagen="img/productos/Abrigos/buzo destacado.png">
+
+      <!-- LINK INVISIBLE PARA IR A LA PÁGINA DEL PRODUCTO -->
+      <a href="producto1.html" class="producto-link"></a>
+
+      <div class="img-container">
+        <img src="img/productos/Abrigos/buzo destacado.png" 
+             alt="Buzo" class="img-default">
+        <img src="img/productos/hover buzo destacado.jpg" 
+             alt="Buzo Hover" class="img-hover">
+      </div>
+
+      <div class="info-producto">
         <h3>buzo ny</h3>
         <p class="precio">$45.000</p>
-        </div>
-        <button class="add-to-cart">Agregar al carrito</button>
-      </article>
+      </div>
+
+      <button class="add-to-cart">Agregar al carrito</button>
+    </article>
 
       <article class="producto" data-nombre="campera carhartt roja"
                data-precio="100.000" 
